@@ -11,7 +11,7 @@ import TodoListUI from '../src/todolistui';
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
-import { setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData } from '../../ckeditor5-engine/src/dev-utils/model';
 
 describe( 'TodoListUI', () => {
 	let editorElement, editor, model, button;

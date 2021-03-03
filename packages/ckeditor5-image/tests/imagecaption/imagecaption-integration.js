@@ -6,13 +6,13 @@
 import Image from '../../src/image';
 import ImageCaption from '../../src/imagecaption';
 import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
-import DomEventData from '@ckeditor/ckeditor5-engine/src/view/observer/domeventdata';
+import DomEventData from '../../../ckeditor5-engine/src/view/observer/domeventdata';
 import Enter from '@ckeditor/ckeditor5-enter/src/enter';
 import ShiftEnter from '@ckeditor/ckeditor5-enter/src/shiftenter';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import Typing from '@ckeditor/ckeditor5-typing/src/typing';
+import Typing from '../../../ckeditor5-typing/src/typing';
 
-import { getData as getModelData, setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData as getModelData, setData as setModelData } from '../../../ckeditor5-engine/src/dev-utils/model';
 import global from '@ckeditor/ckeditor5-utils/src/dom/global';
 
 describe( 'ImageCaption integration', () => {

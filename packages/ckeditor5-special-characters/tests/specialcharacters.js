@@ -7,7 +7,7 @@
 
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
 import EventInfo from '@ckeditor/ckeditor5-utils/src/eventinfo';
-import Typing from '@ckeditor/ckeditor5-typing/src/typing';
+import Typing from '../../ckeditor5-typing/src/typing';
 import SpecialCharacters from '../src/specialcharacters';
 import SpecialCharactersMathematical from '../src/specialcharactersmathematical';
 import SpecialCharactersArrows from '../src/specialcharactersarrows';

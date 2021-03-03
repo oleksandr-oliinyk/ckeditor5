@@ -9,8 +9,8 @@ import Widget from '../../src/widget';
 import { toWidget } from '../../src/utils';
 import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
 import ArticlePluginSet from '@ckeditor/ckeditor5-core/tests/_utils/articlepluginset';
-import { getData as getModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
-import { getData as getViewData } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
+import { getData as getModelData } from '../../../ckeditor5-engine/src/dev-utils/model';
+import { getData as getViewData } from '../../../ckeditor5-engine/src/dev-utils/view';
 
 function MyPlugin( editor ) {
 	editor.model.schema.register( 'div', {

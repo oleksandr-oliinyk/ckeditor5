@@ -7,8 +7,8 @@
 
 import VirtualTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/virtualtesteditor';
 import MediaEmbedEditing from '../src/mediaembedediting';
-import { setData as setModelData, getData as getModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
-import { getData as getViewData } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
+import { setData as setModelData, getData as getModelData } from '../../ckeditor5-engine/src/dev-utils/model';
+import { getData as getViewData } from '../../ckeditor5-engine/src/dev-utils/view';
 import normalizeHtml from '@ckeditor/ckeditor5-utils/tests/_utils/normalizehtml';
 
 describe( 'MediaEmbedEditing', () => {

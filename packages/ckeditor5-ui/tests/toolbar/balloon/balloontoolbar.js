@@ -15,12 +15,12 @@ import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline';
-import TableEditing from '@ckeditor/ckeditor5-table/src/tableediting';
+import TableEditing from '../../../../ckeditor5-table/src/tableediting';
 import global from '@ckeditor/ckeditor5-utils/src/dom/global';
 import ResizeObserver from '@ckeditor/ckeditor5-utils/src/dom/resizeobserver';
 
-import { setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
-import { stringify as viewStringify } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
+import { setData } from '../../../../ckeditor5-engine/src/dev-utils/model';
+import { stringify as viewStringify } from '../../../../ckeditor5-engine/src/dev-utils/view';
 
 import Rect from '@ckeditor/ckeditor5-utils/src/dom/rect';
 import toUnit from '@ckeditor/ckeditor5-utils/src/dom/tounit';

@@ -4,8 +4,8 @@
  */
 
 import ModelTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/modeltesteditor';
-import DomEventData from '@ckeditor/ckeditor5-engine/src/view/observer/domeventdata';
-import { getData, setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import DomEventData from '../../../ckeditor5-engine/src/view/observer/domeventdata';
+import { getData, setData } from '../../../ckeditor5-engine/src/dev-utils/model';
 import { keyCodes, getCode } from '@ckeditor/ckeditor5-utils/src/keyboard';
 import { isNonTypingKeystroke } from '../../src/utils/injectunsafekeystrokeshandling';
 import Typing from '../../src/typing';

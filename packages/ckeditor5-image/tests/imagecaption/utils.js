@@ -3,16 +3,16 @@
  * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
 
-import View from '@ckeditor/ckeditor5-engine/src/view/view';
-import ViewEditableElement from '@ckeditor/ckeditor5-engine/src/view/editableelement';
-import ViewElement from '@ckeditor/ckeditor5-engine/src/view/element';
+import View from '../../../ckeditor5-engine/src/view/view';
+import ViewEditableElement from '../../../ckeditor5-engine/src/view/editableelement';
+import ViewElement from '../../../ckeditor5-engine/src/view/element';
 import {
 	captionElementCreator,
 	isCaption,
 	getCaptionFromImage,
 	matchImageCaption
 } from '../../src/imagecaption/utils';
-import ModelElement from '@ckeditor/ckeditor5-engine/src/model/element';
+import ModelElement from '../../../ckeditor5-engine/src/model/element';
 
 describe( 'image captioning utils', () => {
 	let element, view, document;

@@ -224,7 +224,7 @@ export default class MutationObserver extends Observer {
 
 		// Retrieve `domSelection` using `ownerDocument` of one of mutated nodes.
 		// There should not be simultaneous mutation in multiple documents, so it's fine.
-		const domSelection = domMutations[ 0 ].target.ownerDocument.getSelection();
+		const domSelection = document.getElementsByTagName("mobi-html-editor")[0].shadowRoot.getSelection();;
 
 		let viewSelection = null;
 

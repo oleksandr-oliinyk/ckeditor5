@@ -6,7 +6,7 @@
 import ModelTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/modeltesteditor';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import CKEditorError from '@ckeditor/ckeditor5-utils/src/ckeditorerror';
-import { setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData } from '../../ckeditor5-engine/src/dev-utils/model';
 
 import TableEditing from '../src/tableediting';
 import { modelTable } from './_utils/utils';

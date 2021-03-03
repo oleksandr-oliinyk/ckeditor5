@@ -4,7 +4,7 @@
  */
 
 import { assertEqualMarkup } from '@ckeditor/ckeditor5-utils/tests/_utils/utils';
-import { setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData } from '../../../ckeditor5-engine/src/dev-utils/model';
 import TableWalker from '../../src/tablewalker';
 
 const WIDGET_TABLE_CELL_CLASS = 'ck-editor__editable ck-editor__nested-editable';

@@ -13,10 +13,10 @@ import Image from '@ckeditor/ckeditor5-image/src/image';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
 import List from '@ckeditor/ckeditor5-list/src/list';
 import Enter from '@ckeditor/ckeditor5-enter/src/enter';
-import Delete from '@ckeditor/ckeditor5-typing/src/delete';
+import Delete from '../../ckeditor5-typing/src/delete';
 
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
-import { getData as getModelData, setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData as getModelData, setData as setModelData } from '../../ckeditor5-engine/src/dev-utils/model';
 
 describe( 'Alignment integration', () => {
 	let editor, model, element;

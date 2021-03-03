@@ -4,12 +4,12 @@
  */
 
 import InlineEditorUIView from '../src/inlineeditoruiview';
-import EditingView from '@ckeditor/ckeditor5-engine/src/view/view';
+import EditingView from '../../ckeditor5-engine/src/view/view';
 import ToolbarView from '@ckeditor/ckeditor5-ui/src/toolbar/toolbarview';
 import BalloonPanelView from '@ckeditor/ckeditor5-ui/src/panel/balloon/balloonpanelview';
 import InlineEditableUIView from '@ckeditor/ckeditor5-ui/src/editableui/inline/inlineeditableuiview';
 import Locale from '@ckeditor/ckeditor5-utils/src/locale';
-import createRoot from '@ckeditor/ckeditor5-engine/tests/view/_utils/createroot.js';
+import createRoot from '../../ckeditor5-engine/tests/view/_utils/createroot.js';
 import Rect from '@ckeditor/ckeditor5-utils/src/dom/rect';
 import toUnit from '@ckeditor/ckeditor5-utils/src/dom/tounit';
 import global from '@ckeditor/ckeditor5-utils/src/dom/global';

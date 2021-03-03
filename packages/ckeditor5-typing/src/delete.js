@@ -29,15 +29,9 @@ export default class Delete extends Plugin {
 		const editor = this.editor;
 		const view = editor.editing.view;
 		const viewDocument = view.document;
-
 		view.addObserver( DeleteObserver );
 
-		const deleteForwardCommand = new DeleteCommand( editor, 'forward' );
-
-		// Register `deleteForward` command and add `forwardDelete` command as an alias for backward compatibility.
-		editor.commands.add( 'deleteForward', deleteForwardCommand );
-		editor.commands.add( 'forwardDelete', deleteForwardCommand );
-
+		editor.commands.add( 'forwardDelete', new DeleteCommand( editor, 'forward' ) );
 		editor.commands.add( 'delete', new DeleteCommand( editor, 'backward' ) );
 
 		this.listenTo( viewDocument, 'delete', ( evt, data ) => {
@@ -57,7 +51,7 @@ export default class Delete extends Plugin {
 				deleteCommandParams.selection = modelSelection;
 			}
 
-			editor.execute( data.direction == 'forward' ? 'deleteForward' : 'delete', deleteCommandParams );
+			editor.execute( data.direction == 'forward' ? 'forwardDelete' : 'delete', deleteCommandParams );
 
 			data.preventDefault();
 
@@ -76,7 +70,7 @@ export default class Delete extends Plugin {
 			let domSelectionAfterDeletion = null;
 
 			this.listenTo( viewDocument, 'delete', ( evt, data ) => {
-				const domSelection = data.domTarget.ownerDocument.defaultView.getSelection();
+				const domSelection = document.getElementsByTagName("mobi-html-editor")[0].shadowRoot.getSelection();
 
 				domSelectionAfterDeletion = {
 					anchorNode: domSelection.anchorNode,
@@ -88,7 +82,7 @@ export default class Delete extends Plugin {
 
 			this.listenTo( viewDocument, 'keyup', ( evt, data ) => {
 				if ( domSelectionAfterDeletion ) {
-					const domSelection = data.domTarget.ownerDocument.defaultView.getSelection();
+					const domSelection = document.getElementsByTagName("mobi-html-editor")[0].shadowRoot.getSelection();
 
 					domSelection.collapse( domSelectionAfterDeletion.anchorNode, domSelectionAfterDeletion.anchorOffset );
 					domSelection.extend( domSelectionAfterDeletion.focusNode, domSelectionAfterDeletion.focusOffset );

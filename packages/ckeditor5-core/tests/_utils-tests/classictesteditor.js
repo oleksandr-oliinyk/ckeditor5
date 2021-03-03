@@ -9,7 +9,7 @@ import Editor from '../../src/editor/editor';
 import ClassicTestEditor from '../../tests/_utils/classictesteditor';
 
 import Plugin from '../../src/plugin';
-import HtmlDataProcessor from '@ckeditor/ckeditor5-engine/src/dataprocessor/htmldataprocessor';
+import HtmlDataProcessor from '../../../ckeditor5-engine/src/dataprocessor/htmldataprocessor';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 
 import EditorUI from '../../src/editor/editorui';
@@ -18,9 +18,9 @@ import InlineEditableUIView from '@ckeditor/ckeditor5-ui/src/editableui/inline/i
 
 import DataApiMixin from '../../src/editor/utils/dataapimixin';
 import ElementApiMixin from '../../src/editor/utils/elementapimixin';
-import RootElement from '@ckeditor/ckeditor5-engine/src/model/rootelement';
+import RootElement from '../../../ckeditor5-engine/src/model/rootelement';
 
-import { getData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData } from '../../../ckeditor5-engine/src/dev-utils/model';
 import testUtils from '../../tests/_utils/utils';
 import { assertCKEditorError } from '@ckeditor/ckeditor5-utils/tests/_utils/utils';
 import { removeEditorBodyOrphans } from '../_utils/cleanup';

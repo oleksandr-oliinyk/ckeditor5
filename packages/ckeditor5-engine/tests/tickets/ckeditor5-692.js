@@ -10,7 +10,7 @@ import { getData as getModelData, setData as setModelData } from '../../src/dev-
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold.js';
 import { getData as getViewData } from '../../src/dev-utils/view';
 import { isInlineFiller } from '../../src/view/filler';
-import Input from '@ckeditor/ckeditor5-typing/src/input';
+import Input from '../../../ckeditor5-typing/src/input';
 
 /* globals document */
 

@@ -8,7 +8,7 @@ import global from '@ckeditor/ckeditor5-utils/src/dom/global';
 
 import Typing from '../src/typing';
 import TextTransformation from '../src/texttransformation';
-import { getData, setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData, setData } from '../../ckeditor5-engine/src/dev-utils/model';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';

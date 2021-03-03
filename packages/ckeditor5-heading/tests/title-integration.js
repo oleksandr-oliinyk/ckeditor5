@@ -12,7 +12,7 @@ import Enter from '@ckeditor/ckeditor5-enter/src/enter';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
-import { getData as getModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData as getModelData } from '../../ckeditor5-engine/src/dev-utils/model';
 
 describe( 'Title integration', () => {
 	let editor, model, doc, element;

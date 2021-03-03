@@ -7,14 +7,14 @@
 
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
-import { setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData as setModelData } from '../../ckeditor5-engine/src/dev-utils/model';
 
 import TableEditing from '../src/tableediting';
 import TableSelection from '../src/tableselection';
 import TableMouse from '../src/tablemouse';
 import { assertSelectedCells, modelTable } from './_utils/utils';
-import DomEventData from '@ckeditor/ckeditor5-engine/src/view/observer/domeventdata';
-import Typing from '@ckeditor/ckeditor5-typing/src/typing';
+import DomEventData from '../../ckeditor5-engine/src/view/observer/domeventdata';
+import Typing from '../../ckeditor5-typing/src/typing';
 
 describe( 'TableMouse', () => {
 	let editorElement, editor, model, tableMouse, modelRoot, view, viewDocument;

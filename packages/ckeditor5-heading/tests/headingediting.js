@@ -9,7 +9,7 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import ParagraphCommand from '@ckeditor/ckeditor5-paragraph/src/paragraphcommand';
 import VirtualTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/virtualtesteditor';
 import testUtils from '@ckeditor/ckeditor5-core/tests/_utils/utils';
-import { getData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData } from '../../ckeditor5-engine/src/dev-utils/model';
 
 describe( 'HeadingEditing', () => {
 	let editor, model;

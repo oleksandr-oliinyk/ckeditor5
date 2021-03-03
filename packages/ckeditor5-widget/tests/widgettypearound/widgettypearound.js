@@ -5,17 +5,17 @@
 
 import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
 import ArticlePluginSet from '@ckeditor/ckeditor5-core/tests/_utils/articlepluginset';
-import DomEventData from '@ckeditor/ckeditor5-engine/src/view/observer/domeventdata';
+import DomEventData from '../../../ckeditor5-engine/src/view/observer/domeventdata';
 import EventInfo from '@ckeditor/ckeditor5-utils/src/eventinfo';
 import global from '@ckeditor/ckeditor5-utils/src/dom/global';
-import ViewText from '@ckeditor/ckeditor5-engine/src/view/text';
+import ViewText from '../../../ckeditor5-engine/src/view/text';
 
 import Widget from '../../src/widget';
 import WidgetTypeAround from '../../src/widgettypearound/widgettypearound';
 import { TYPE_AROUND_SELECTION_ATTRIBUTE } from '../../src/widgettypearound/utils';
 import { toWidget } from '../../src/utils';
 
-import { setData as setModelData, getData as getModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData as setModelData, getData as getModelData } from '../../../ckeditor5-engine/src/dev-utils/model';
 import { getCode } from '@ckeditor/ckeditor5-utils/src/keyboard';
 
 describe( 'WidgetTypeAround', () => {

@@ -7,7 +7,7 @@
  * @module table/tableutils
  */
 
-import { Plugin } from 'ckeditor5/src/core';
+import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 
 import TableWalker from './tablewalker';
 import { createEmptyTableCell, updateNumericAttribute } from './utils/common';

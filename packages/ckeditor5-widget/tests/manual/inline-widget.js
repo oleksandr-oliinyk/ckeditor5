@@ -5,7 +5,7 @@
 
 /* global console, window */
 
-import { getData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData } from '../../../ckeditor5-engine/src/dev-utils/model';
 import global from '@ckeditor/ckeditor5-utils/src/dom/global';
 
 import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
@@ -14,14 +14,14 @@ import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Enter from '@ckeditor/ckeditor5-enter/src/enter';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import Typing from '@ckeditor/ckeditor5-typing/src/typing';
+import Typing from '../../../ckeditor5-typing/src/typing';
 import Undo from '@ckeditor/ckeditor5-undo/src/undo';
 import Widget from '../../src/widget';
 import { toWidget, viewToModelPositionOutsideModelElement } from '../../src/utils';
 import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
 import Clipboard from '@ckeditor/ckeditor5-clipboard/src/clipboard';
 import ShiftEnter from '@ckeditor/ckeditor5-enter/src/shiftenter';
-import Table from '@ckeditor/ckeditor5-table/src/table';
+import Table from '../../../ckeditor5-table/src/table';
 
 class InlineWidget extends Plugin {
 	constructor( editor ) {

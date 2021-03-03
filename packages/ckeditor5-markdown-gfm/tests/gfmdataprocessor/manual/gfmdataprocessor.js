@@ -5,9 +5,9 @@
 
 /* globals document */
 
-import Document from '@ckeditor/ckeditor5-engine/src/view/document';
-import { StylesProcessor } from '@ckeditor/ckeditor5-engine/src/view/stylesmap';
-import { stringify, parse } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
+import Document from '../../../../ckeditor5-engine/src/view/document';
+import { StylesProcessor } from '../../../../ckeditor5-engine/src/view/stylesmap';
+import { stringify, parse } from '../../../../ckeditor5-engine/src/dev-utils/view';
 
 import MarkdownDataProcessor from '../../../src/gfmdataprocessor';
 

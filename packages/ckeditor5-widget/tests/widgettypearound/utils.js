@@ -3,7 +3,7 @@
  * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
 
-import Selection from '@ckeditor/ckeditor5-engine/src/model/selection';
+import Selection from '../../../ckeditor5-engine/src/model/selection';
 import {
 	TYPE_AROUND_SELECTION_ATTRIBUTE,
 	getTypeAroundFakeCaretPosition

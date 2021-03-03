@@ -9,7 +9,7 @@ import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor'
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
-import { getData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData } from '../../../../ckeditor5-engine/src/dev-utils/model';
 
 window.setInterval( function() {
 	console.log( getData( window.editor.model ) );

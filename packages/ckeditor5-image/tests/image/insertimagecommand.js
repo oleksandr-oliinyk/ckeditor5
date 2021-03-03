@@ -9,7 +9,7 @@ import InsertImageCommand from '../../src/image/insertimagecommand';
 import Image from '../../src/image/imageediting';
 
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import { setData as setModelData, getData as getModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData as setModelData, getData as getModelData } from '../../../ckeditor5-engine/src/dev-utils/model';
 
 describe( 'InsertImageCommand', () => {
 	let editor, command, model;

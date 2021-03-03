@@ -8,16 +8,16 @@
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import Clipboard from '@ckeditor/ckeditor5-clipboard/src/clipboard';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import Table from '@ckeditor/ckeditor5-table/src/table';
-import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
+import Table from '../../ckeditor5-table/src/table';
+import TableToolbar from '../../ckeditor5-table/src/tabletoolbar';
 import UndoEditing from '@ckeditor/ckeditor5-undo/src/undoediting';
 import Link from '@ckeditor/ckeditor5-link/src/link';
-import Delete from '@ckeditor/ckeditor5-typing/src/delete';
+import Delete from '../../ckeditor5-typing/src/delete';
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
 
 import testUtils from '@ckeditor/ckeditor5-core/tests/_utils/utils';
-import { parse as parseView, getData as getViewData } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
-import { setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { parse as parseView, getData as getViewData } from '../../ckeditor5-engine/src/dev-utils/view';
+import { setData } from '../../ckeditor5-engine/src/dev-utils/model';
 
 import MentionEditing from '../src/mentionediting';
 import Mention from '../src/mention';

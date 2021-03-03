@@ -6,7 +6,7 @@
 import HeadingEditing from '../../src/headingediting';
 import VirtualTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/virtualtesteditor';
 import Enter from '@ckeditor/ckeditor5-enter/src/enter';
-import { getData, setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData, setData } from '../../../ckeditor5-engine/src/dev-utils/model';
 
 describe( 'Bug ckeditor5-heading#40', () => {
 	let editor;

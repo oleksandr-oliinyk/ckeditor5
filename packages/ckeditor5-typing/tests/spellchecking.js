@@ -12,8 +12,8 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Undo from '@ckeditor/ckeditor5-undo/src/undo';
 
-import { getData as getModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
-import { getData as getViewData } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
+import { getData as getModelData } from '../../ckeditor5-engine/src/dev-utils/model';
+import { getData as getViewData } from '../../ckeditor5-engine/src/dev-utils/view';
 
 describe( 'Typing – spellchecking integration', () => {
 	let editor, container;

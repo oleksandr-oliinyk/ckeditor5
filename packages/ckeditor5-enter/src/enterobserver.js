@@ -7,8 +7,8 @@
  * @module enter/enterobserver
  */
 
-import Observer from '@ckeditor/ckeditor5-engine/src/view/observer/observer';
-import DomEventData from '@ckeditor/ckeditor5-engine/src/view/observer/domeventdata';
+import Observer from '../../ckeditor5-engine/src/view/observer/observer';
+import DomEventData from '../../ckeditor5-engine/src/view/observer/domeventdata';
 import { keyCodes } from '@ckeditor/ckeditor5-utils/src/keyboard';
 
 /**

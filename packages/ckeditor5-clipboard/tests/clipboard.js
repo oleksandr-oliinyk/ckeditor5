@@ -13,15 +13,15 @@ import DataTransfer from '../src/datatransfer';
 import {
 	stringify as stringifyView,
 	parse as parseView
-} from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
+} from '../../ckeditor5-engine/src/dev-utils/view';
 import {
 	stringify as stringifyModel,
 	setData as setModelData,
 	getData as getModelData
-} from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+} from '../../ckeditor5-engine/src/dev-utils/model';
 
-import ViewDocumentFragment from '@ckeditor/ckeditor5-engine/src/view/documentfragment';
-import ViewText from '@ckeditor/ckeditor5-engine/src/view/text';
+import ViewDocumentFragment from '../../ckeditor5-engine/src/view/documentfragment';
+import ViewText from '../../ckeditor5-engine/src/view/text';
 
 describe( 'Clipboard feature', () => {
 	let editor, view, viewDocument, clipboardPlugin, scrollSpy;

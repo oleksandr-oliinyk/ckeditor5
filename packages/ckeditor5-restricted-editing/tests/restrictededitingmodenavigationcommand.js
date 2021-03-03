@@ -4,7 +4,7 @@
  */
 
 import ModelTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/modeltesteditor';
-import { setData as setModelData, getData as getModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData as setModelData, getData as getModelData } from '../../ckeditor5-engine/src/dev-utils/model';
 
 import RestrictedEditingModeNavigationCommand from '../src/restrictededitingmodenavigationcommand';
 

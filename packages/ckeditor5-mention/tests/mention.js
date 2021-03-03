@@ -5,8 +5,8 @@
 
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
 import global from '@ckeditor/ckeditor5-utils/src/dom/global';
-import Element from '@ckeditor/ckeditor5-engine/src/view/element';
-import Text from '@ckeditor/ckeditor5-engine/src/view/text';
+import Element from '../../ckeditor5-engine/src/view/element';
+import Text from '../../ckeditor5-engine/src/view/text';
 
 import Mention from '../src/mention';
 import MentionEditing from '../src/mentionediting';

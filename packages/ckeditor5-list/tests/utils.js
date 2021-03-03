@@ -3,9 +3,9 @@
  * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
 
-import ViewContainerElement from '@ckeditor/ckeditor5-engine/src/view/containerelement';
-import ViewDowncastWriter from '@ckeditor/ckeditor5-engine/src/view/downcastwriter';
-import { setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import ViewContainerElement from '../../ckeditor5-engine/src/view/containerelement';
+import ViewDowncastWriter from '../../ckeditor5-engine/src/view/downcastwriter';
+import { setData } from '../../ckeditor5-engine/src/dev-utils/model';
 import VirtualTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/virtualtesteditor';
 
 import ListEditing from '../src/listediting';

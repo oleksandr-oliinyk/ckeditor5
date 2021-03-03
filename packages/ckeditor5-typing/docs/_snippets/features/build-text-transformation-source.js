@@ -7,7 +7,7 @@
 
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic/src/ckeditor';
 
-import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
+import TextTransformation from '../../../../ckeditor5-typing/src/texttransformation';
 
 ClassicEditor.builtinPlugins.push( TextTransformation );
 

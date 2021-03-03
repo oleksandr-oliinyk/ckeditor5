@@ -3,10 +3,10 @@
  * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
 
-import ViewDocumentFragment from '@ckeditor/ckeditor5-engine/src/view/documentfragment';
-import ViewDowncastWriter from '@ckeditor/ckeditor5-engine/src/view/downcastwriter';
-import ViewDocument from '@ckeditor/ckeditor5-engine/src/view/document';
-import ModelElement from '@ckeditor/ckeditor5-engine/src/model/element';
+import ViewDocumentFragment from '../../../ckeditor5-engine/src/view/documentfragment';
+import ViewDowncastWriter from '../../../ckeditor5-engine/src/view/downcastwriter';
+import ViewDocument from '../../../ckeditor5-engine/src/view/document';
+import ModelElement from '../../../ckeditor5-engine/src/model/element';
 import {
 	toImageWidget,
 	isImageWidget,
@@ -19,9 +19,9 @@ import {
 import { isWidget, getLabel } from '@ckeditor/ckeditor5-widget/src/utils';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import VirtualTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/virtualtesteditor';
-import { setData as setModelData, getData as getModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData as setModelData, getData as getModelData } from '../../../ckeditor5-engine/src/dev-utils/model';
 import Image from '../../src/image/imageediting';
-import { StylesProcessor } from '@ckeditor/ckeditor5-engine/src/view/stylesmap';
+import { StylesProcessor } from '../../../ckeditor5-engine/src/view/stylesmap';
 
 describe( 'image widget utils', () => {
 	let element, image, writer, viewDocument;

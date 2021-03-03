@@ -7,7 +7,7 @@
  * @module table/commands/setheadercolumncommand
  */
 
-import { Command } from 'ckeditor5/src/core';
+import Command from '@ckeditor/ckeditor5-core/src/command';
 
 import {
 	isHeadingColumnCell,

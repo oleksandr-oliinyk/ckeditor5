@@ -7,7 +7,7 @@
  * @module table/tablecellproperties/tablecellpropertiesui
  */
 
-import { Plugin } from 'ckeditor5/src/core';
+import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 import { ButtonView, clickOutsideHandler, ContextualBalloon, getLocalizedColorOptions, normalizeColorOptions } from 'ckeditor5/src/ui';
 
 import TableCellPropertiesView from './ui/tablecellpropertiesview';

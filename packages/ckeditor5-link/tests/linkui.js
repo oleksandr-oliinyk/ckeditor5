@@ -10,8 +10,8 @@ import testUtils from '@ckeditor/ckeditor5-core/tests/_utils/utils';
 import indexOf from '@ckeditor/ckeditor5-utils/src/dom/indexof';
 import isRange from '@ckeditor/ckeditor5-utils/src/dom/isrange';
 import { keyCodes } from '@ckeditor/ckeditor5-utils/src/keyboard';
-import { getData as getModelData, setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
-import { getData as getViewData } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
+import { getData as getModelData, setData as setModelData } from '../../ckeditor5-engine/src/dev-utils/model';
+import { getData as getViewData } from '../../ckeditor5-engine/src/dev-utils/view';
 import env from '@ckeditor/ckeditor5-utils/src/env';
 
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
@@ -24,7 +24,7 @@ import ContextualBalloon from '@ckeditor/ckeditor5-ui/src/panel/balloon/contextu
 import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
 import View from '@ckeditor/ckeditor5-ui/src/view';
 
-import ClickObserver from '@ckeditor/ckeditor5-engine/src/view/observer/clickobserver';
+import ClickObserver from '../../ckeditor5-engine/src/view/observer/clickobserver';
 
 describe( 'LinkUI', () => {
 	let editor, linkUIFeature, linkButton, balloon, formView, actionsView, editorElement;

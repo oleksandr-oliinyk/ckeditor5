@@ -7,7 +7,7 @@ import DataApiMixin from '../../../src/editor/utils/dataapimixin';
 import Editor from '../../../src/editor/editor';
 import testUtils from '../../../tests/_utils/utils';
 import mix from '@ckeditor/ckeditor5-utils/src/mix';
-import { getData, setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData, setData } from '../../../../ckeditor5-engine/src/dev-utils/model';
 
 describe( 'DataApiMixin', () => {
 	let editor;

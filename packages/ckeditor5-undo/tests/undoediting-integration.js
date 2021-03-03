@@ -11,13 +11,13 @@ import UndoEditing from '../src/undoediting';
 
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import HeadingEditing from '@ckeditor/ckeditor5-heading/src/headingediting';
-import Typing from '@ckeditor/ckeditor5-typing/src/typing';
+import Typing from '../../ckeditor5-typing/src/typing';
 import Enter from '@ckeditor/ckeditor5-enter/src/enter';
 import Clipboard from '@ckeditor/ckeditor5-clipboard/src/clipboard';
 import BoldEditing from '@ckeditor/ckeditor5-basic-styles/src/bold/boldediting';
-import TableEditing from '@ckeditor/ckeditor5-table/src/tableediting';
+import TableEditing from '../../ckeditor5-table/src/tableediting';
 
-import { setData, getData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData, getData } from '../../ckeditor5-engine/src/dev-utils/model';
 
 describe( 'UndoEditing integration', () => {
 	let editor, model, doc, root, div;

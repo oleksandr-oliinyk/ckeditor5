@@ -6,9 +6,9 @@
 /* globals document */
 
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
-import Delete from '@ckeditor/ckeditor5-typing/src/delete';
+import Delete from '../../../ckeditor5-typing/src/delete';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import { getData as getViewData } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
+import { getData as getViewData } from '../../../ckeditor5-engine/src/dev-utils/view';
 import { assertEqualMarkup } from '@ckeditor/ckeditor5-utils/tests/_utils/utils';
 import testUtils from '@ckeditor/ckeditor5-core/tests/_utils/utils';
 

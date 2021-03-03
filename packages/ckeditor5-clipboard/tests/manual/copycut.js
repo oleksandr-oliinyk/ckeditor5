@@ -8,7 +8,7 @@
 import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
 import ArticlePluginSet from '@ckeditor/ckeditor5-core/tests/_utils/articlepluginset';
 
-import { stringify as stringifyView } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
+import { stringify as stringifyView } from '../../../ckeditor5-engine/src/dev-utils/view';
 
 ClassicEditor
 	.create( document.querySelector( '#editor' ), {

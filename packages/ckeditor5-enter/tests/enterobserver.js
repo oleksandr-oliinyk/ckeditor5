@@ -5,10 +5,10 @@
 
 /* globals document */
 
-import View from '@ckeditor/ckeditor5-engine/src/view/view';
+import View from '../../ckeditor5-engine/src/view/view';
 import EnterObserver from '../src/enterobserver';
-import DomEventData from '@ckeditor/ckeditor5-engine/src/view/observer/domeventdata';
-import createViewRoot from '@ckeditor/ckeditor5-engine/tests/view/_utils/createroot';
+import DomEventData from '../../ckeditor5-engine/src/view/observer/domeventdata';
+import createViewRoot from '../../ckeditor5-engine/tests/view/_utils/createroot';
 import { getCode } from '@ckeditor/ckeditor5-utils/src/keyboard';
 
 describe( 'EnterObserver', () => {

@@ -17,7 +17,7 @@ import removeButtonIcon from '@ckeditor/ckeditor5-core/theme/icons/eraser.svg';
 import testUtils from '@ckeditor/ckeditor5-core/tests/_utils/utils';
 import ColorTileView from '@ckeditor/ckeditor5-ui/src/colorgrid/colortileview';
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
-import { setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData as setModelData } from '../../../ckeditor5-engine/src/dev-utils/model';
 import global from '@ckeditor/ckeditor5-utils/src/dom/global';
 
 describe( 'ColorTableView', () => {

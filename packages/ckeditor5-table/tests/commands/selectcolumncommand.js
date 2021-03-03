@@ -5,7 +5,7 @@
 
 import VirtualTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/virtualtesteditor';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import { setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData } from '../../../ckeditor5-engine/src/dev-utils/model';
 
 import TableEditing from '../../src/tableediting';
 import TableSelection from '../../src/tableselection';

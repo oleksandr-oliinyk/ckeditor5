@@ -4,7 +4,7 @@
  */
 
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
-import { setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData as setModelData } from '../../ckeditor5-engine/src/dev-utils/model';
 import BalloonToolbar from '@ckeditor/ckeditor5-ui/src/toolbar/balloon/balloontoolbar';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import global from '@ckeditor/ckeditor5-utils/src/dom/global';

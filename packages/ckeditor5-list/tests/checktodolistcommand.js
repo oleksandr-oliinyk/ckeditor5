@@ -7,7 +7,7 @@ import TodoListEditing from '../src/todolistediting';
 import CheckTodoListCommand from '../src/checktodolistcommand';
 
 import ModelTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/modeltesteditor';
-import { getData as getModelData, setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData as getModelData, setData as setModelData } from '../../ckeditor5-engine/src/dev-utils/model';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 
 describe( 'CheckTodoListCommand', () => {

@@ -7,7 +7,7 @@ import ListEditing from '../src/listediting';
 import ListCommand from '../src/listcommand';
 import IndentCommand from '../src/indentcommand';
 
-import ModelRange from '@ckeditor/ckeditor5-engine/src/model/range';
+import ModelRange from '../../ckeditor5-engine/src/model/range';
 
 import BoldEditing from '@ckeditor/ckeditor5-basic-styles/src/bold/boldediting';
 import UndoEditing from '@ckeditor/ckeditor5-undo/src/undoediting';
@@ -16,13 +16,13 @@ import BlockQuoteEditing from '@ckeditor/ckeditor5-block-quote/src/blockquoteedi
 import HeadingEditing from '@ckeditor/ckeditor5-heading/src/headingediting';
 
 import VirtualTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/virtualtesteditor';
-import { getData as getModelData, parse as parseModel, setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
-import { getData as getViewData, parse as parseView } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
+import { getData as getModelData, parse as parseModel, setData as setModelData } from '../../ckeditor5-engine/src/dev-utils/model';
+import { getData as getViewData, parse as parseView } from '../../ckeditor5-engine/src/dev-utils/view';
 import IndentEditing from '@ckeditor/ckeditor5-indent/src/indentediting';
 
 import { getCode } from '@ckeditor/ckeditor5-utils/src/keyboard';
 import { assertEqualMarkup } from '@ckeditor/ckeditor5-utils/tests/_utils/utils';
-import TableEditing from '@ckeditor/ckeditor5-table/src/tableediting';
+import TableEditing from '../../ckeditor5-table/src/tableediting';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 
 describe( 'ListEditing', () => {

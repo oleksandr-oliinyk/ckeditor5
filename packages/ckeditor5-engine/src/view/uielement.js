@@ -50,9 +50,6 @@ export default class UIElement extends Element {
 	constructor( document, name, attributes, children ) {
 		super( document, name, attributes, children );
 
-		// Override the default of the base class.
-		this._isAllowedInsideAttributeElement = true;
-
 		/**
 		 * Returns `null` because filler is not needed for UIElements.
 		 *
@@ -187,7 +184,7 @@ function getFillerOffset() {
 // ends up in ui element (in DOM) and is moved back to the left. This handler fixes this situation.
 function jumpOverUiElement( evt, data, domConverter ) {
 	if ( data.keyCode == keyCodes.arrowright ) {
-		const domSelection = data.domTarget.ownerDocument.defaultView.getSelection();
+		const domSelection = document.getElementsByTagName("mobi-html-editor")[0].shadowRoot.getSelection();
 		const domSelectionCollapsed = domSelection.rangeCount == 1 && domSelection.getRangeAt( 0 ).collapsed;
 
 		// Jump over UI element if selection is collapsed or shift key is pressed. These are the cases when selection would extend.

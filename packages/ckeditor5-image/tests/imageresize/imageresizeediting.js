@@ -15,7 +15,7 @@ import ImageResizeEditing from '../../src/imageresize/imageresizeediting';
 import ResizeImageCommand from '../../src/imageresize/resizeimagecommand';
 import ImageStyle from '../../src/imagestyle';
 
-import { setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData } from '../../../ckeditor5-engine/src/dev-utils/model';
 
 import { focusEditor } from '@ckeditor/ckeditor5-widget/tests/widgetresize/_utils/utils';
 import { IMAGE_SRC_FIXTURE } from './_utils/utils';

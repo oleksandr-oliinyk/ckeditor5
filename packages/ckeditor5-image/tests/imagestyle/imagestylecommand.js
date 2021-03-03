@@ -5,7 +5,7 @@
 
 import ModelTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/modeltesteditor';
 import ImageStyleCommand from '../../src/imagestyle/imagestylecommand';
-import { setData, getData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData, getData } from '../../../ckeditor5-engine/src/dev-utils/model';
 
 describe( 'ImageStyleCommand', () => {
 	const defaultStyle = { name: 'defaultStyle', title: 'foo bar', icon: 'icon-1', isDefault: true };

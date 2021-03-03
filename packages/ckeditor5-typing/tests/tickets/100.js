@@ -10,13 +10,13 @@ import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import LinkEditing from '@ckeditor/ckeditor5-link/src/linkediting';
 import Input from '../../src/input';
 
-import ViewText from '@ckeditor/ckeditor5-engine/src/view/text';
-import ViewElement from '@ckeditor/ckeditor5-engine/src/view/element';
-import ViewContainerElement from '@ckeditor/ckeditor5-engine/src/view/containerelement';
-import MutationObserver from '@ckeditor/ckeditor5-engine/src/view/observer/mutationobserver';
+import ViewText from '../../../ckeditor5-engine/src/view/text';
+import ViewElement from '../../../ckeditor5-engine/src/view/element';
+import ViewContainerElement from '../../../ckeditor5-engine/src/view/containerelement';
+import MutationObserver from '../../../ckeditor5-engine/src/view/observer/mutationobserver';
 
-import { getData as getModelData, setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
-import { getData as getViewData } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
+import { getData as getModelData, setData as setModelData } from '../../../ckeditor5-engine/src/dev-utils/model';
+import { getData as getViewData } from '../../../ckeditor5-engine/src/dev-utils/view';
 
 /* global document */
 

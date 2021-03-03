@@ -9,7 +9,7 @@ import ImageCaptionEditing from '@ckeditor/ckeditor5-image/src/imagecaption/imag
 import ListEditing from '@ckeditor/ckeditor5-list/src/listediting';
 import HeadingEditing from '@ckeditor/ckeditor5-heading/src/headingediting';
 import VirtualTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/virtualtesteditor';
-import { getData as getModelData, setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData as getModelData, setData as setModelData } from '../../ckeditor5-engine/src/dev-utils/model';
 
 import AlignmentCommand from '../src/alignmentcommand';
 

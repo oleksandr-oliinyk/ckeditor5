@@ -6,11 +6,11 @@
 import ModelTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/modeltesteditor';
 import CodeBlockEditing from '@ckeditor/ckeditor5-code-block/src/codeblockediting';
 import Enter from '@ckeditor/ckeditor5-enter/src/enter';
-import Input from '@ckeditor/ckeditor5-typing/src/input';
+import Input from '../../ckeditor5-typing/src/input';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import ShiftEnter from '@ckeditor/ckeditor5-enter/src/shiftenter';
 import UndoEditing from '@ckeditor/ckeditor5-undo/src/undoediting';
-import { getData, setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData, setData } from '../../ckeditor5-engine/src/dev-utils/model';
 
 import LinkEditing from '../src/linkediting';
 import AutoLink from '../src/autolink';

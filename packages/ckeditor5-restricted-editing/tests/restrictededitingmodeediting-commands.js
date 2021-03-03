@@ -6,9 +6,9 @@
 import testUtils from '@ckeditor/ckeditor5-core/tests/_utils/utils';
 import VirtualTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/virtualtesteditor';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import Typing from '@ckeditor/ckeditor5-typing/src/typing';
+import Typing from '../../ckeditor5-typing/src/typing';
 import Command from '@ckeditor/ckeditor5-core/src/command';
-import { setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData as setModelData } from '../../ckeditor5-engine/src/dev-utils/model';
 
 import RestrictedEditingModeEditing from './../src/restrictededitingmodeediting';
 import UndoEditing from '@ckeditor/ckeditor5-undo/src/undoediting';

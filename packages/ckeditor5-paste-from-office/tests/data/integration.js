@@ -15,9 +15,9 @@ import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 import List from '@ckeditor/ckeditor5-list/src/list';
 import ListStyle from '@ckeditor/ckeditor5-list/src/liststyle';
 import Image from '@ckeditor/ckeditor5-image/src/image';
-import Table from '@ckeditor/ckeditor5-table/src/table';
-import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
-import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
+import Table from '../../../ckeditor5-table/src/table';
+import TableProperties from '../../../ckeditor5-table/src/tableproperties';
+import TableCellProperties from '../../../ckeditor5-table/src/tablecellproperties';
 import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor';
 import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor';
 

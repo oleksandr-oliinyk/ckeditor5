@@ -7,13 +7,13 @@
 
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
 
-import MutationObserver from '@ckeditor/ckeditor5-engine/src/view/observer/mutationobserver';
+import MutationObserver from '../../ckeditor5-engine/src/view/observer/mutationobserver';
 
 import Typing from '../src/typing';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 
-import { setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData } from '../../ckeditor5-engine/src/dev-utils/model';
 
 describe( 'Typing – bogus BR integration', () => {
 	let editor, domRoot, mutationObserver, editorElement;

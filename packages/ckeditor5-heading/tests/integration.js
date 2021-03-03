@@ -14,7 +14,7 @@ import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
 import Undo from '@ckeditor/ckeditor5-undo/src/undo';
 
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
-import { getData as getModelData, setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData as getModelData, setData as setModelData } from '../../ckeditor5-engine/src/dev-utils/model';
 
 describe( 'Heading integration', () => {
 	let editor, model, doc, element;

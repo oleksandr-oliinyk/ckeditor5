@@ -8,12 +8,12 @@
 import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import LinkEditing from '@ckeditor/ckeditor5-link/src/linkediting';
-import Delete from '@ckeditor/ckeditor5-typing/src/delete';
+import Delete from '../../ckeditor5-typing/src/delete';
 import BoldEditing from '@ckeditor/ckeditor5-basic-styles/src/bold/boldediting';
 import ShiftEnter from '../src/shiftenter';
 
-import { getData as getModelData, setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
-import { getData as getViewData } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
+import { getData as getModelData, setData as setModelData } from '../../ckeditor5-engine/src/dev-utils/model';
+import { getData as getViewData } from '../../ckeditor5-engine/src/dev-utils/view';
 
 describe( 'ShiftEnter integration', () => {
 	let editor, model, div;

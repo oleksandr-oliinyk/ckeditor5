@@ -9,7 +9,7 @@ import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictest
 import Paragraph from '../src/paragraph';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
 import ParagraphButtonUI from '../src/paragraphbuttonui';
-import { setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData } from '../../ckeditor5-engine/src/dev-utils/model';
 import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
 import icon from '../theme/icons/paragraph.svg';
 

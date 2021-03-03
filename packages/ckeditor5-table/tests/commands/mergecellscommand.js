@@ -4,7 +4,7 @@
  */
 
 import ModelTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/modeltesteditor';
-import { getData, setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData, setData } from '../../../ckeditor5-engine/src/dev-utils/model';
 
 import MergeCellsCommand from '../../src/commands/mergecellscommand';
 import { modelTable } from '../_utils/utils';

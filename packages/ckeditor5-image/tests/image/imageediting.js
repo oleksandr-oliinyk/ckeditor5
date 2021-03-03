@@ -10,8 +10,8 @@ import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictest
 import ImageEditing from '../../src/image/imageediting';
 import ImageLoadObserver from '../../src/image/imageloadobserver';
 import InsertImageCommand from '../../src/image/insertimagecommand';
-import { getData as getModelData, setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
-import { getData as getViewData } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
+import { getData as getModelData, setData as setModelData } from '../../../ckeditor5-engine/src/dev-utils/model';
+import { getData as getViewData } from '../../../ckeditor5-engine/src/dev-utils/view';
 import { isImageWidget } from '../../src/image/utils';
 import normalizeHtml from '@ckeditor/ckeditor5-utils/tests/_utils/normalizehtml';
 import testUtils from '@ckeditor/ckeditor5-core/tests/_utils/utils';

@@ -7,7 +7,7 @@
  * @module table/commands/splitcellcommand
  */
 
-import { Command } from 'ckeditor5/src/core';
+import Command from '@ckeditor/ckeditor5-core/src/command';
 import { getSelectionAffectedTableCells } from '../utils/selection';
 
 /**

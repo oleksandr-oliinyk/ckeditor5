@@ -9,7 +9,7 @@ import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor'
 import ArticlePluginSet from '@ckeditor/ckeditor5-core/tests/_utils/articlepluginset';
 import Table from '../../src/table';
 import TableToolbar from '../../src/tabletoolbar';
-import { getData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData } from '../../../ckeditor5-engine/src/dev-utils/model';
 import TableSelection from '../../src/tableselection';
 import TableClipboard from '../../src/tableclipboard';
 import TableProperties from '../../src/tableproperties';

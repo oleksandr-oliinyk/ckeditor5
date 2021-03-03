@@ -11,11 +11,11 @@ import {
 	getData as getModelData,
 	setData as setModelData,
 	stringify as stringifyModel
-} from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
-import { getData as getViewData } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
+} from '../../ckeditor5-engine/src/dev-utils/model';
+import { getData as getViewData } from '../../ckeditor5-engine/src/dev-utils/view';
 
-import ModelDocumentFragment from '@ckeditor/ckeditor5-engine/src/model/documentfragment';
-import ModelText from '@ckeditor/ckeditor5-engine/src/model/text';
+import ModelDocumentFragment from '../../ckeditor5-engine/src/model/documentfragment';
+import ModelText from '../../ckeditor5-engine/src/model/text';
 
 describe( 'Paragraph feature', () => {
 	let model, editor, doc, root;

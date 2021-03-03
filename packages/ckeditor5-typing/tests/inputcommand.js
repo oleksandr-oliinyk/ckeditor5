@@ -6,7 +6,7 @@
 import VirtualTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/virtualtesteditor';
 import ModelTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/modeltesteditor';
 import testUtils from '@ckeditor/ckeditor5-core/tests/_utils/utils';
-import { getData, setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData, setData } from '../../ckeditor5-engine/src/dev-utils/model';
 import InputCommand from '../src/inputcommand';
 import ChangeBuffer from '../src/utils/changebuffer';
 import Input from '../src/input';

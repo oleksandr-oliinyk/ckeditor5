@@ -8,7 +8,7 @@
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
 import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
 import EventInfo from '@ckeditor/ckeditor5-utils/src/eventinfo';
-import DomEventData from '@ckeditor/ckeditor5-engine/src/view/observer/domeventdata';
+import DomEventData from '../../ckeditor5-engine/src/view/observer/domeventdata';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import testUtils from '@ckeditor/ckeditor5-core/tests/_utils/utils';
 

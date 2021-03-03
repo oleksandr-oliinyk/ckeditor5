@@ -9,7 +9,7 @@ import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictest
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
-import { getData, setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData, setData } from '../../ckeditor5-engine/src/dev-utils/model';
 import ListStyle from '../src/liststyle';
 import ListStyleUI from '../src/liststyleui';
 import DropdownView from '@ckeditor/ckeditor5-ui/src/dropdown/dropdownview';

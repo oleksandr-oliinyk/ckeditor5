@@ -7,4 +7,4 @@
  *  @module ckeditor5/typing
  */
 
-export * from '@ckeditor/ckeditor5-typing';
+export * from '../packages/ckeditor5-typing';

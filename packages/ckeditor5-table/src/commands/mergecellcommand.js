@@ -7,7 +7,7 @@
  * @module table/commands/mergecellcommand
  */
 
-import { Command } from 'ckeditor5/src/core';
+import Command from '@ckeditor/ckeditor5-core/src/command';
 import TableWalker from '../tablewalker';
 import { getTableCellsContainingSelection } from '../utils/selection';
 import { isHeadingColumnCell } from '../utils/common';

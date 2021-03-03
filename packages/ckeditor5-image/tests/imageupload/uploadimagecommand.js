@@ -13,7 +13,7 @@ import UploadImageCommand from '../../src/imageupload/uploadimagecommand';
 import FileRepository from '@ckeditor/ckeditor5-upload/src/filerepository';
 
 import { createNativeFileMock, UploadAdapterMock } from '@ckeditor/ckeditor5-upload/tests/_utils/mocks';
-import { setData as setModelData, getData as getModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData as setModelData, getData as getModelData } from '../../../ckeditor5-engine/src/dev-utils/model';
 import Image from '../../src/image/imageediting';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 

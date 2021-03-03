@@ -7,7 +7,7 @@
  * @module table/ui/inserttableview
  */
 
-import { View } from 'ckeditor5/src/ui';
+import View from "@ckeditor/ckeditor5-ui/src/view";
 
 import './../../theme/inserttable.css';
 

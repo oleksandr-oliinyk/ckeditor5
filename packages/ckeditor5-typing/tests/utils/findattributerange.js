@@ -4,9 +4,9 @@
  */
 
 import findAttributeRange from '../../src/utils/findattributerange';
-import Model from '@ckeditor/ckeditor5-engine/src/model/model';
-import Range from '@ckeditor/ckeditor5-engine/src/model/range';
-import { setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import Model from '../../../ckeditor5-engine/src/model/model';
+import Range from '../../../ckeditor5-engine/src/model/range';
+import { setData } from '../../../ckeditor5-engine/src/dev-utils/model';
 
 describe( 'findAttributeRange', () => {
 	let model, document, root;

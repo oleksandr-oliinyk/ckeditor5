@@ -6,9 +6,9 @@
 /* globals window, document */
 
 import DeleteObserver from '../src/deleteobserver';
-import View from '@ckeditor/ckeditor5-engine/src/view/view';
-import DomEventData from '@ckeditor/ckeditor5-engine/src/view/observer/domeventdata';
-import createViewRoot from '@ckeditor/ckeditor5-engine/tests/view/_utils/createroot';
+import View from '../../ckeditor5-engine/src/view/view';
+import DomEventData from '../../ckeditor5-engine/src/view/observer/domeventdata';
+import createViewRoot from '../../ckeditor5-engine/tests/view/_utils/createroot';
 import { getCode } from '@ckeditor/ckeditor5-utils/src/keyboard';
 import env from '@ckeditor/ckeditor5-utils/src/env';
 

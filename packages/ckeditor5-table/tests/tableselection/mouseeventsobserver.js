@@ -5,7 +5,7 @@
 
 /* globals document */
 
-import View from '@ckeditor/ckeditor5-engine/src/view/view';
+import View from '../../../ckeditor5-engine/src/view/view';
 import MouseEventsObserver from '../../src/tablemouse/mouseeventsobserver';
 
 describe( 'table selection', () => {

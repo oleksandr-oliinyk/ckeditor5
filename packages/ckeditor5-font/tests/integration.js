@@ -8,8 +8,8 @@
 import Font from '../src/font';
 import ArticlePluginSet from '@ckeditor/ckeditor5-core/tests/_utils/articlepluginset';
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
-import { getData, setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
-import Table from '@ckeditor/ckeditor5-table/src/table';
+import { getData, setData as setModelData } from '../../ckeditor5-engine/src/dev-utils/model';
+import Table from '../../ckeditor5-table/src/table';
 
 describe( 'Integration test Font', () => {
 	let element, editor, model;

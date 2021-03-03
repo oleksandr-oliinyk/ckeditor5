@@ -8,11 +8,11 @@ import ModelTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/modeltestedit
 import ListEditing from '@ckeditor/ckeditor5-list/src/listediting';
 import BoldEditing from '@ckeditor/ckeditor5-basic-styles/src/bold/boldediting';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import Typing from '@ckeditor/ckeditor5-typing/src/typing';
+import Typing from '../../../../../ckeditor5-typing/src/typing';
 import UndoEditing from '@ckeditor/ckeditor5-undo/src/undoediting';
 import BlockQuoteEditing from '@ckeditor/ckeditor5-block-quote/src/blockquoteediting';
 import HeadingEditing from '@ckeditor/ckeditor5-heading/src/headingediting';
-import TableEditing from '@ckeditor/ckeditor5-table/src/tableediting';
+import TableEditing from '../../../../../ckeditor5-table/src/tableediting';
 import ImageEditing from '@ckeditor/ckeditor5-image/src/image/imageediting';
 
 import { getData, parse } from '../../../../src/dev-utils/model';

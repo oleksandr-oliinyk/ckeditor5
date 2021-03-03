@@ -9,7 +9,7 @@ import ListEditing from '@ckeditor/ckeditor5-list/src/listediting';
 import BoldEditing from '@ckeditor/ckeditor5-basic-styles/src/bold/boldediting';
 
 import VirtualTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/virtualtesteditor';
-import { getData as getModelData, setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData as getModelData, setData as setModelData } from '../../../ckeditor5-engine/src/dev-utils/model';
 
 import BlockQuoteCommand from '../src/blockquotecommand';
 

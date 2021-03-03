@@ -10,7 +10,7 @@ import HtmlEmbedEditing from '../src/htmlembedediting';
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
 import UpdateHtmlEmbedCommand from '../src/updatehtmlembedcommand';
 import InsertHtmlEmbedCommand from '../src/inserthtmlembedcommand';
-import { getData as getModelData, setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData as getModelData, setData as setModelData } from '../../ckeditor5-engine/src/dev-utils/model';
 import { isWidget } from '@ckeditor/ckeditor5-widget/src/utils';
 import Clipboard from '@ckeditor/ckeditor5-clipboard/src/clipboard';
 

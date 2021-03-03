@@ -9,7 +9,7 @@ import VirtualTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/virtualtest
 import {
 	getData as getModelData,
 	setData as setModelData
-} from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+} from '../../../ckeditor5-engine/src/dev-utils/model';
 
 describe( 'FontColorEditing', () => {
 	let editor, doc;

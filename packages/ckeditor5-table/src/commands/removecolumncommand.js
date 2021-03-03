@@ -7,7 +7,7 @@
  * @module table/commands/removecolumncommand
  */
 
-import { Command } from 'ckeditor5/src/core';
+import Command from '@ckeditor/ckeditor5-core/src/command';
 
 import TableWalker from '../tablewalker';
 import { getColumnIndexes, getSelectionAffectedTableCells } from '../utils/selection';

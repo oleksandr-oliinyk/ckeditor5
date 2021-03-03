@@ -19,7 +19,7 @@ import TableCellVerticalAlignmentCommand from '../../src/tablecellproperties/com
 import TableCellPaddingCommand from '../../src/tablecellproperties/commands/tablecellpaddingcommand';
 import TableCellBackgroundColorCommand from '../../src/tablecellproperties/commands/tablecellbackgroundcolorcommand';
 
-import { setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData as setModelData } from '../../../ckeditor5-engine/src/dev-utils/model';
 import { assertEqualMarkup } from '@ckeditor/ckeditor5-utils/tests/_utils/utils';
 import { assertTableCellStyle, assertTRBLAttribute } from '../_utils/utils';
 

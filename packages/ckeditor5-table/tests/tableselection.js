@@ -11,13 +11,13 @@ import {
 	getData as getModelData,
 	setData as setModelData,
 	stringify as stringifyModel
-} from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+} from '../../ckeditor5-engine/src/dev-utils/model';
 
 import TableEditing from '../src/tableediting';
 import TableSelection from '../src/tableselection';
 import { assertSelectedCells, modelTable } from './_utils/utils';
-import DocumentFragment from '@ckeditor/ckeditor5-engine/src/model/documentfragment';
-import Typing from '@ckeditor/ckeditor5-typing/src/typing';
+import DocumentFragment from '../../ckeditor5-engine/src/model/documentfragment';
+import Typing from '../../ckeditor5-typing/src/typing';
 import { assertEqualMarkup } from '@ckeditor/ckeditor5-utils/tests/_utils/utils';
 
 describe( 'TableSelection', () => {

@@ -6,7 +6,7 @@
 import ModelTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/modeltesteditor';
 import InsertParagraphCommand from '../src/insertparagraphcommand';
 
-import { setData, getData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData, getData } from '../../ckeditor5-engine/src/dev-utils/model';
 
 describe( 'InsertParagraphCommand', () => {
 	let editor, model, document, command, root, schema;

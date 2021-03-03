@@ -65,12 +65,12 @@ import selectAll from '@ckeditor/ckeditor5-select-all/theme/icons/select-all.svg
 
 import specialCharacters from '@ckeditor/ckeditor5-special-characters/theme/icons/specialcharacters.svg';
 
-import table from '@ckeditor/ckeditor5-table/theme/icons/table.svg';
-import tableRow from '@ckeditor/ckeditor5-table/theme/icons/table-row.svg';
-import tableColumn from '@ckeditor/ckeditor5-table/theme/icons/table-column.svg';
-import tableMergeCell from '@ckeditor/ckeditor5-table/theme/icons/table-merge-cell.svg';
-import tableCellProperties from '@ckeditor/ckeditor5-table/theme/icons/table-cell-properties.svg';
-import tableProperties from '@ckeditor/ckeditor5-table/theme/icons/table-properties.svg';
+import table from '../../../ckeditor5-table/theme/icons/table.svg';
+import tableRow from '../../../ckeditor5-table/theme/icons/table-row.svg';
+import tableColumn from '../../../ckeditor5-table/theme/icons/table-column.svg';
+import tableMergeCell from '../../../ckeditor5-table/theme/icons/table-merge-cell.svg';
+import tableCellProperties from '../../../ckeditor5-table/theme/icons/table-cell-properties.svg';
+import tableProperties from '../../../ckeditor5-table/theme/icons/table-properties.svg';
 
 import nextArrow from '@ckeditor/ckeditor5-ui/theme/icons/next-arrow.svg';
 import previousArrow from '@ckeditor/ckeditor5-ui/theme/icons/previous-arrow.svg';

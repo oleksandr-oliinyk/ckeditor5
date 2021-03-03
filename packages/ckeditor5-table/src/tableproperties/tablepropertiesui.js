@@ -7,7 +7,7 @@
  * @module table/tableproperties/tablepropertiesui
  */
 
-import { Plugin } from 'ckeditor5/src/core';
+import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 import { ButtonView, ContextualBalloon, clickOutsideHandler, getLocalizedColorOptions, normalizeColorOptions } from 'ckeditor5/src/ui';
 
 import { debounce } from 'lodash-es';

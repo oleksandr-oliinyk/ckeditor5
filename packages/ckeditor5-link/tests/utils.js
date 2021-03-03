@@ -3,13 +3,13 @@
  * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
 
-import ViewDocument from '@ckeditor/ckeditor5-engine/src/view/document';
-import ViewDowncastWriter from '@ckeditor/ckeditor5-engine/src/view/downcastwriter';
-import AttributeElement from '@ckeditor/ckeditor5-engine/src/view/attributeelement';
-import ContainerElement from '@ckeditor/ckeditor5-engine/src/view/containerelement';
-import Text from '@ckeditor/ckeditor5-engine/src/view/text';
-import Schema from '@ckeditor/ckeditor5-engine/src/model/schema';
-import ModelElement from '@ckeditor/ckeditor5-engine/src/model/element';
+import ViewDocument from '../../ckeditor5-engine/src/view/document';
+import ViewDowncastWriter from '../../ckeditor5-engine/src/view/downcastwriter';
+import AttributeElement from '../../ckeditor5-engine/src/view/attributeelement';
+import ContainerElement from '../../ckeditor5-engine/src/view/containerelement';
+import Text from '../../ckeditor5-engine/src/view/text';
+import Schema from '../../ckeditor5-engine/src/model/schema';
+import ModelElement from '../../ckeditor5-engine/src/model/element';
 import {
 	createLinkElement, isLinkElement, ensureSafeUrl, normalizeDecorators, isImageAllowed, isEmail, addLinkProtocolIfApplicable
 } from '../src/utils';

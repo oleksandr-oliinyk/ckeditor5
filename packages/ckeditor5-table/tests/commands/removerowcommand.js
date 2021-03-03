@@ -4,8 +4,8 @@
  */
 
 import VirtualTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/virtualtesteditor';
-import { getData, setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
-import { getData as getViewData } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
+import { getData, setData } from '../../../ckeditor5-engine/src/dev-utils/model';
+import { getData as getViewData } from '../../../ckeditor5-engine/src/dev-utils/view';
 
 import RemoveRowCommand from '../../src/commands/removerowcommand';
 import TableSelection from '../../src/tableselection';

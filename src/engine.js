@@ -7,4 +7,5 @@
  *  @module ckeditor5/engine
  */
 
-export * from '@ckeditor/ckeditor5-engine';
+export * from '../packages/ckeditor5-engine';
+

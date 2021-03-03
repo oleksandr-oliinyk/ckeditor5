@@ -11,17 +11,17 @@ import Image from '@ckeditor/ckeditor5-image/src/image';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
 import List from '@ckeditor/ckeditor5-list/src/list';
 import Enter from '@ckeditor/ckeditor5-enter/src/enter';
-import Delete from '@ckeditor/ckeditor5-typing/src/delete';
+import Delete from '../../ckeditor5-typing/src/delete';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
-import Table from '@ckeditor/ckeditor5-table/src/table';
+import Table from '../../ckeditor5-table/src/table';
 
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
 import {
 	parse as parseModel,
 	getData as getModelData,
 	setData as setModelData
-} from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+} from '../../ckeditor5-engine/src/dev-utils/model';
 
 describe( 'BlockQuote integration', () => {
 	let editor, model, element, viewDocument;

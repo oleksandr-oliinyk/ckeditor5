@@ -3,11 +3,11 @@
  * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
 
-import HtmlDataProcessor from '@ckeditor/ckeditor5-engine/src/dataprocessor/htmldataprocessor';
+import HtmlDataProcessor from '../../../ckeditor5-engine/src/dataprocessor/htmldataprocessor';
 import removeBoldWrapper from '../../src/filters/removeboldwrapper';
-import UpcastWriter from '@ckeditor/ckeditor5-engine/src/view/upcastwriter';
-import Document from '@ckeditor/ckeditor5-engine/src/view/document';
-import { StylesProcessor } from '@ckeditor/ckeditor5-engine/src/view/stylesmap';
+import UpcastWriter from '../../../ckeditor5-engine/src/view/upcastwriter';
+import Document from '../../../ckeditor5-engine/src/view/document';
+import { StylesProcessor } from '../../../ckeditor5-engine/src/view/stylesmap';
 
 describe( 'PasteFromOffice - filters', () => {
 	const htmlDataProcessor = new HtmlDataProcessor( new Document( new StylesProcessor() ) );

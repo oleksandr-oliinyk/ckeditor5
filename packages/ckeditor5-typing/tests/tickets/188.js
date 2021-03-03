@@ -8,7 +8,7 @@ import Input from '../../src/input';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import BoldEditing from '@ckeditor/ckeditor5-basic-styles/src/bold/boldediting';
 
-import { getData } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
+import { getData } from '../../../ckeditor5-engine/src/dev-utils/view';
 
 describe( 'Bug ckeditor5-typing#188', () => {
 	let editor;

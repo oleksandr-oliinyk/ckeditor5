@@ -7,8 +7,8 @@
 
 import Resizer from '../../src/widgetresize/resizer';
 
-import Element from '@ckeditor/ckeditor5-engine/src/model/element';
-import ContainerElement from '@ckeditor/ckeditor5-engine/src/view/containerelement';
+import Element from '../../../ckeditor5-engine/src/model/element';
+import ContainerElement from '../../../ckeditor5-engine/src/view/containerelement';
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
 
 import ArticlePluginSet from '@ckeditor/ckeditor5-core/tests/_utils/articlepluginset';

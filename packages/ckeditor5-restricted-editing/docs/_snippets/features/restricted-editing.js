@@ -10,7 +10,7 @@ import RestrictedEditingMode from '@ckeditor/ckeditor5-restricted-editing/src/re
 import StandardEditingMode from '@ckeditor/ckeditor5-restricted-editing/src/standardeditingmode';
 
 import ArticlePluginSet from '@ckeditor/ckeditor5-core/tests/_utils/articlepluginset';
-import Table from '@ckeditor/ckeditor5-table/src/table';
+import Table from '../../../../ckeditor5-table/src/table';
 
 ClassicEditor.builtinPlugins.push(
 	RestrictedEditingMode, StandardEditingMode, ArticlePluginSet, Table );

@@ -7,17 +7,17 @@
 
 import VirtualTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/virtualtesteditor';
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
-import ViewDocument from '@ckeditor/ckeditor5-engine/src/view/document';
+import ViewDocument from '../../../ckeditor5-engine/src/view/document';
 
-import HtmlDataProcessor from '@ckeditor/ckeditor5-engine/src/dataprocessor/htmldataprocessor';
+import HtmlDataProcessor from '../../../ckeditor5-engine/src/dataprocessor/htmldataprocessor';
 import normalizeClipboardData from '@ckeditor/ckeditor5-clipboard/src/utils/normalizeclipboarddata';
 import normalizeHtml from '@ckeditor/ckeditor5-utils/tests/_utils/normalizehtml';
-import { setData, stringify as stringifyModel } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
-import { stringify as stringifyView } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
+import { setData, stringify as stringifyModel } from '../../../ckeditor5-engine/src/dev-utils/model';
+import { stringify as stringifyView } from '../../../ckeditor5-engine/src/dev-utils/view';
 import { assertEqualMarkup } from '@ckeditor/ckeditor5-utils/tests/_utils/utils';
 
 import { fixtures, browserFixtures } from './fixtures';
-import { StylesProcessor } from '@ckeditor/ckeditor5-engine/src/view/stylesmap';
+import { StylesProcessor } from '../../../ckeditor5-engine/src/view/stylesmap';
 
 const htmlDataProcessor = new HtmlDataProcessor( new ViewDocument( new StylesProcessor() ) );
 

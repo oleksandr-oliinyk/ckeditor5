@@ -10,11 +10,11 @@ import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor'
 import HtmlEmbedEditing from '@ckeditor/ckeditor5-html-embed/src/htmlembedediting';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import Rect from '@ckeditor/ckeditor5-utils/src/dom/rect';
-import Table from '@ckeditor/ckeditor5-table/src/table';
+import Table from '../../../ckeditor5-table/src/table';
 import Undo from '@ckeditor/ckeditor5-undo/src/undo';
 import LinkImageEditing from '@ckeditor/ckeditor5-link/src/linkimageediting';
 import Widget from '@ckeditor/ckeditor5-widget/src/widget';
-import { setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData } from '../../../ckeditor5-engine/src/dev-utils/model';
 import {
 	focusEditor,
 	resizerMouseSimulator,

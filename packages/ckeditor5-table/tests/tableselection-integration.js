@@ -8,7 +8,7 @@
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
 
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import Delete from '@ckeditor/ckeditor5-typing/src/delete';
+import Delete from '../../ckeditor5-typing/src/delete';
 import Clipboard from '@ckeditor/ckeditor5-clipboard/src/clipboard';
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline';
 
@@ -16,14 +16,14 @@ import TableEditing from '../src/tableediting';
 import TableSelection from '../src/tableselection';
 import TableClipboard from '../src/tableclipboard';
 
-import { getData as getModelData, setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData as getModelData, setData as setModelData } from '../../ckeditor5-engine/src/dev-utils/model';
 
 import { assertSelectedCells, modelTable } from './_utils/utils';
 import { assertEqualMarkup } from '@ckeditor/ckeditor5-utils/tests/_utils/utils';
-import DomEventData from '@ckeditor/ckeditor5-engine/src/view/observer/domeventdata';
+import DomEventData from '../../ckeditor5-engine/src/view/observer/domeventdata';
 import { getCode } from '@ckeditor/ckeditor5-utils/src/keyboard';
-import Input from '@ckeditor/ckeditor5-typing/src/input';
-import ViewText from '@ckeditor/ckeditor5-engine/src/view/text';
+import Input from '../../ckeditor5-typing/src/input';
+import ViewText from '../../ckeditor5-engine/src/view/text';
 import UndoEditing from '@ckeditor/ckeditor5-undo/src/undoediting';
 
 describe( 'TableSelection - integration', () => {

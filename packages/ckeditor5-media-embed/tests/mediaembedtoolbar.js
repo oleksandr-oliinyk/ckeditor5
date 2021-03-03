@@ -10,7 +10,7 @@ import BalloonEditor from '@ckeditor/ckeditor5-editor-balloon/src/ballooneditor'
 import MediaEmbed from '../src/mediaembed';
 import MediaEmbedToolbar from '../src/mediaembedtoolbar';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import { setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData } from '../../ckeditor5-engine/src/dev-utils/model';
 import View from '@ckeditor/ckeditor5-ui/src/view';
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';

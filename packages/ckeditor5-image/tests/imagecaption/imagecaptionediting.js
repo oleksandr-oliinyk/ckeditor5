@@ -10,8 +10,8 @@ import ImageEditing from '../../src/image/imageediting';
 import UndoEditing from '@ckeditor/ckeditor5-undo/src/undoediting';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 
-import { getData as getModelData, setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
-import { getData as getViewData } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
+import { getData as getModelData, setData as setModelData } from '../../../ckeditor5-engine/src/dev-utils/model';
+import { getData as getViewData } from '../../../ckeditor5-engine/src/dev-utils/view';
 
 import testUtils from '@ckeditor/ckeditor5-core/tests/_utils/utils';
 

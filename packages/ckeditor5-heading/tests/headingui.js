@@ -12,7 +12,7 @@ import HeadingUI from '../src/headingui';
 import DropdownView from '@ckeditor/ckeditor5-ui/src/dropdown/dropdownview';
 import { add as addTranslations, _clear as clearTranslations } from '@ckeditor/ckeditor5-utils/src/translation-service';
 import testUtils from '@ckeditor/ckeditor5-core/tests/_utils/utils';
-import { setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData } from '../../ckeditor5-engine/src/dev-utils/model';
 
 describe( 'HeadingUI', () => {
 	let editor, editorElement, dropdown;

@@ -4,14 +4,14 @@
  */
 
 import Editor from '../../src/editor/editor';
-import EditingController from '@ckeditor/ckeditor5-engine/src/controller/editingcontroller';
+import EditingController from '../../../ckeditor5-engine/src/controller/editingcontroller';
 import ModelTestEditor from '../../tests/_utils/modeltesteditor';
 
-import HtmlDataProcessor from '@ckeditor/ckeditor5-engine/src/dataprocessor/htmldataprocessor';
+import HtmlDataProcessor from '../../../ckeditor5-engine/src/dataprocessor/htmldataprocessor';
 import DataApiMixin from '../../src/editor/utils/dataapimixin';
-import RootElement from '@ckeditor/ckeditor5-engine/src/model/rootelement';
+import RootElement from '../../../ckeditor5-engine/src/model/rootelement';
 
-import { getData, setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData, setData } from '../../../ckeditor5-engine/src/dev-utils/model';
 
 import testUtils from '../../tests/_utils/utils';
 

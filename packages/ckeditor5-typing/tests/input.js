@@ -14,15 +14,15 @@ import ShiftEnter from '@ckeditor/ckeditor5-enter/src/shiftenter';
 import Input from '../src/input';
 import TextTransformation from '../src/texttransformation';
 
-import ViewText from '@ckeditor/ckeditor5-engine/src/view/text';
-import ViewElement from '@ckeditor/ckeditor5-engine/src/view/element';
-import ViewContainerElement from '@ckeditor/ckeditor5-engine/src/view/containerelement';
+import ViewText from '../../ckeditor5-engine/src/view/text';
+import ViewElement from '../../ckeditor5-engine/src/view/element';
+import ViewContainerElement from '../../ckeditor5-engine/src/view/containerelement';
 
 import EmitterMixin from '@ckeditor/ckeditor5-utils/src/emittermixin';
 import { getCode } from '@ckeditor/ckeditor5-utils/src/keyboard';
 
-import { getData as getModelData, setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
-import { getData as getViewData } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
+import { getData as getModelData, setData as setModelData } from '../../ckeditor5-engine/src/dev-utils/model';
+import { getData as getViewData } from '../../ckeditor5-engine/src/dev-utils/view';
 import env from '@ckeditor/ckeditor5-utils/src/env';
 
 /* global document */

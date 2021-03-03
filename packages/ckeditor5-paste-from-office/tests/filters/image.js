@@ -6,7 +6,7 @@
 import VirtualTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/virtualtesteditor';
 
 import normalizeHtml from '@ckeditor/ckeditor5-utils/tests/_utils/normalizehtml';
-import { stringify as stringifyView } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
+import { stringify as stringifyView } from '../../../ckeditor5-engine/src/dev-utils/view';
 
 import { parseHtml } from '../../src/filters/parse';
 import { replaceImagesSourceWithBase64, _convertHexToBase64 } from '../../src/filters/image';

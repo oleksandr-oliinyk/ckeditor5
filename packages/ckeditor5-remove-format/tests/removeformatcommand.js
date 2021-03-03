@@ -9,7 +9,7 @@ import ModelTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/modeltestedit
 import {
 	getData,
 	setData
-} from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+} from '../../ckeditor5-engine/src/dev-utils/model';
 
 describe( 'RemoveFormatCommand', () => {
 	let editor, model, command;

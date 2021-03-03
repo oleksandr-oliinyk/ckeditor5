@@ -6,10 +6,10 @@
 /* globals document, Event */
 
 import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
-import KeyObserver from '@ckeditor/ckeditor5-engine/src/view/observer/keyobserver';
+import KeyObserver from '../../ckeditor5-engine/src/view/observer/keyobserver';
 
 import { toWidget } from '../src/utils';
-import { setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData as setModelData } from '../../ckeditor5-engine/src/dev-utils/model';
 
 import testUtils from '@ckeditor/ckeditor5-core/tests/_utils/utils';
 

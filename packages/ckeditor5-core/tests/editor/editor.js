@@ -9,7 +9,7 @@ import Editor from '../../src/editor/editor';
 import Context from '../../src/context';
 import Plugin from '../../src/plugin';
 import Config from '@ckeditor/ckeditor5-utils/src/config';
-import EditingController from '@ckeditor/ckeditor5-engine/src/controller/editingcontroller';
+import EditingController from '../../../ckeditor5-engine/src/controller/editingcontroller';
 import PluginCollection from '../../src/plugincollection';
 import CommandCollection from '../../src/commandcollection';
 import Locale from '@ckeditor/ckeditor5-utils/src/locale';

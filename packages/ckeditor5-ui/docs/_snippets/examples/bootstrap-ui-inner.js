@@ -28,7 +28,7 @@ import attachToForm from '@ckeditor/ckeditor5-core/src/editor/utils/attachtoform
 // Basic features that every editor should enable.
 import Clipboard from '@ckeditor/ckeditor5-clipboard/src/clipboard';
 import Enter from '@ckeditor/ckeditor5-enter/src/enter';
-import Typing from '@ckeditor/ckeditor5-typing/src/typing';
+import Typing from '../../../../ckeditor5-typing/src/typing';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import UndoEditing from '@ckeditor/ckeditor5-undo/src/undoediting';
 

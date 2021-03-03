@@ -33,14 +33,15 @@ import SpecialCharactersEssentials from '@ckeditor/ckeditor5-special-characters/
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 import Subscript from '@ckeditor/ckeditor5-basic-styles/src/subscript';
 import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript';
-import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
-import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
-import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
+import TableCellProperties from '../../packages/ckeditor5-table/src/tablecellproperties';
+import TableProperties from '../../packages/ckeditor5-table/src/tableproperties';
+import TextTransformation from '../../packages/ckeditor5-typing/src/texttransformation';
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount';
 import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices';
 import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload';
+
 
 import { CS_CONFIG } from '@ckeditor/ckeditor5-cloud-services/tests/_utils/cloud-services-config';
 

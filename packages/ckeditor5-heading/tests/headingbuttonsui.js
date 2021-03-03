@@ -8,7 +8,7 @@
 import ClassicTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/classictesteditor';
 import HeadingEditing from '../src/headingediting';
 import HeadingButtonsUI from '../src/headingbuttonsui';
-import { setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData } from '../../ckeditor5-engine/src/dev-utils/model';
 import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
 import { getLocalizedOptions } from '../src/utils';
 import iconHeading2 from '../theme/icons/heading2.svg';

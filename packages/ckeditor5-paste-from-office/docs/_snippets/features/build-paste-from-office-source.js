@@ -19,8 +19,8 @@ import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalli
 import Indent from '@ckeditor/ckeditor5-indent/src/indent';
 import IndentBlock from '@ckeditor/ckeditor5-indent/src/indentblock';
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
-import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
-import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
+import TableProperties from '../../../../ckeditor5-table/src/tableproperties';
+import TableCellProperties from '../../../../ckeditor5-table/src/tablecellproperties';
 
 ClassicEditor.builtinPlugins.push(
 	PasteFromOffice,

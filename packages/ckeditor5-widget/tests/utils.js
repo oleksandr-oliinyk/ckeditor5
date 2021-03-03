@@ -5,12 +5,12 @@
 
 /* global document */
 
-import DowncastWriter from '@ckeditor/ckeditor5-engine/src/view/downcastwriter';
-import ViewText from '@ckeditor/ckeditor5-engine/src/view/text';
-import ViewElement from '@ckeditor/ckeditor5-engine/src/view/element';
-import ViewPosition from '@ckeditor/ckeditor5-engine/src/view/position';
-import ViewEditableElement from '@ckeditor/ckeditor5-engine/src/view/editableelement';
-import ViewDocument from '@ckeditor/ckeditor5-engine/src/view/document';
+import DowncastWriter from '../../ckeditor5-engine/src/view/downcastwriter';
+import ViewText from '../../ckeditor5-engine/src/view/text';
+import ViewElement from '../../ckeditor5-engine/src/view/element';
+import ViewPosition from '../../ckeditor5-engine/src/view/position';
+import ViewEditableElement from '../../ckeditor5-engine/src/view/editableelement';
+import ViewDocument from '../../ckeditor5-engine/src/view/document';
 import {
 	toWidget,
 	isWidget,
@@ -24,13 +24,13 @@ import {
 	WIDGET_CLASS_NAME,
 	centeredBalloonPositionForLongWidgets
 } from '../src/utils';
-import UIElement from '@ckeditor/ckeditor5-engine/src/view/uielement';
+import UIElement from '../../ckeditor5-engine/src/view/uielement';
 import testUtils from '@ckeditor/ckeditor5-core/tests/_utils/utils';
-import Model from '@ckeditor/ckeditor5-engine/src/model/model';
-import { setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
-import Mapper from '@ckeditor/ckeditor5-engine/src/conversion/mapper';
-import ModelElement from '@ckeditor/ckeditor5-engine/src/model/element';
-import ModelText from '@ckeditor/ckeditor5-engine/src/model/text';
+import Model from '../../ckeditor5-engine/src/model/model';
+import { setData } from '../../ckeditor5-engine/src/dev-utils/model';
+import Mapper from '../../ckeditor5-engine/src/conversion/mapper';
+import ModelElement from '../../ckeditor5-engine/src/model/element';
+import ModelText from '../../ckeditor5-engine/src/model/text';
 import BalloonPanelView from '@ckeditor/ckeditor5-ui/src/panel/balloon/balloonpanelview';
 import global from '@ckeditor/ckeditor5-utils/src/dom/global';
 import Rect from '@ckeditor/ckeditor5-utils/src/dom/rect';

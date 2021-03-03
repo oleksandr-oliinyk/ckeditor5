@@ -12,12 +12,12 @@ import Clipboard from '@ckeditor/ckeditor5-clipboard/src/clipboard';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import Link from '@ckeditor/ckeditor5-link/src/link';
 import Undo from '@ckeditor/ckeditor5-undo/src/undo';
-import Typing from '@ckeditor/ckeditor5-typing/src/typing';
+import Typing from '../../ckeditor5-typing/src/typing';
 import Image from '@ckeditor/ckeditor5-image/src/image';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
-import Table from '@ckeditor/ckeditor5-table/src/table';
+import Table from '../../ckeditor5-table/src/table';
 import global from '@ckeditor/ckeditor5-utils/src/dom/global';
-import { getData, setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { getData, setData } from '../../ckeditor5-engine/src/dev-utils/model';
 
 describe( 'AutoMediaEmbed - integration', () => {
 	let editorElement, editor;

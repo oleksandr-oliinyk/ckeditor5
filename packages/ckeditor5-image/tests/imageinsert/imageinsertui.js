@@ -19,7 +19,7 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import Notification from '@ckeditor/ckeditor5-ui/src/notification/notification';
 import Clipboard from '@ckeditor/ckeditor5-clipboard/src/clipboard';
 import EventInfo from '@ckeditor/ckeditor5-utils/src/eventinfo';
-import DomEventData from '@ckeditor/ckeditor5-engine/src/view/observer/domeventdata';
+import DomEventData from '../../../ckeditor5-engine/src/view/observer/domeventdata';
 import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
 import LabeledFieldView from '@ckeditor/ckeditor5-ui/src/labeledfield/labeledfieldview';
 import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';

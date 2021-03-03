@@ -8,7 +8,7 @@ import TableEditing from '../../src/tableediting';
 
 import VirtualTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/virtualtesteditor';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import { setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData as setModelData } from '../../../ckeditor5-engine/src/dev-utils/model';
 
 describe( 'table ascii-art and model helpers', () => {
 	let editor, model, modelRoot;

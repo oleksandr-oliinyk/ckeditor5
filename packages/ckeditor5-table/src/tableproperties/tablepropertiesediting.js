@@ -7,7 +7,7 @@
  * @module table/tableproperties/tablepropertiesediting
  */
 
-import { Plugin } from 'ckeditor5/src/core';
+import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 import { addBackgroundRules, addBorderRules } from 'ckeditor5/src/engine';
 
 import TableEditing from '../tableediting';

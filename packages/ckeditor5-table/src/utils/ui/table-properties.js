@@ -8,7 +8,7 @@
  */
 
 import { ButtonView, Model } from 'ckeditor5/src/ui';
-import { Collection } from 'ckeditor5/src/utils';
+import Collection from '@ckeditor/ckeditor5-utils/src/collection';
 import { isColor, isLength, isPercentage } from 'ckeditor5/src/engine';
 
 import ColorInputView from '../../ui/colorinputview';

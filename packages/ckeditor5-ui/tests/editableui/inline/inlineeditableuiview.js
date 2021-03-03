@@ -5,8 +5,8 @@
 
 /* globals document */
 
-import EditingView from '@ckeditor/ckeditor5-engine/src/view/view';
-import ViewRootEditableElement from '@ckeditor/ckeditor5-engine/src/view/rooteditableelement';
+import EditingView from '../../../../ckeditor5-engine/src/view/view';
+import ViewRootEditableElement from '../../../../ckeditor5-engine/src/view/rooteditableelement';
 import InlineEditableUIView from '../../../src/editableui/inline/inlineeditableuiview';
 import Locale from '@ckeditor/ckeditor5-utils/src/locale';
 

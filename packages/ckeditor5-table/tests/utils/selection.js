@@ -8,7 +8,7 @@ import VirtualTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/virtualtest
 import TableSelection from '../../src/tableselection';
 import TableEditing from '../../src/tableediting';
 
-import { setData as setModelData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData as setModelData } from '../../../ckeditor5-engine/src/dev-utils/model';
 import { modelTable } from '../_utils/utils';
 import { getSelectedTableCells, getSelectionAffectedTableCells, getTableCellsContainingSelection } from '../../src/utils/selection';
 

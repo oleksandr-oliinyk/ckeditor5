@@ -6,12 +6,12 @@
 import PasteFromOffice from '../src/pastefromoffice';
 import Clipboard from '@ckeditor/ckeditor5-clipboard/src/clipboard';
 import VirtualTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/virtualtesteditor';
-import HtmlDataProcessor from '@ckeditor/ckeditor5-engine/src/dataprocessor/htmldataprocessor';
+import HtmlDataProcessor from '../../ckeditor5-engine/src/dataprocessor/htmldataprocessor';
 import { createDataTransfer } from './_utils/utils';
 import testUtils from '@ckeditor/ckeditor5-core/tests/_utils/utils';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import { StylesProcessor } from '@ckeditor/ckeditor5-engine/src/view/stylesmap';
-import ViewDocument from '@ckeditor/ckeditor5-engine/src/view/document';
+import { StylesProcessor } from '../../ckeditor5-engine/src/view/stylesmap';
+import ViewDocument from '../../ckeditor5-engine/src/view/document';
 
 describe( 'PasteFromOffice', () => {
 	const htmlDataProcessor = new HtmlDataProcessor( new ViewDocument( new StylesProcessor() ) );

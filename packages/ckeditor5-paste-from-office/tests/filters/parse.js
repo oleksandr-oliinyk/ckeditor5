@@ -5,7 +5,7 @@
 
 /* globals CSSStyleSheet */
 
-import DocumentFragment from '@ckeditor/ckeditor5-engine/src/view/documentfragment';
+import DocumentFragment from '../../../ckeditor5-engine/src/view/documentfragment';
 
 import { parseHtml } from '../../src/filters/parse';
 

@@ -12,7 +12,7 @@ import Clipboard from '@ckeditor/ckeditor5-clipboard/src/clipboard';
 import Enter from '@ckeditor/ckeditor5-enter/src/enter';
 import SelectAll from '@ckeditor/ckeditor5-select-all/src/selectall';
 import ShiftEnter from '@ckeditor/ckeditor5-enter/src/shiftenter';
-import Typing from '@ckeditor/ckeditor5-typing/src/typing';
+import Typing from '../../ckeditor5-typing/src/typing';
 import Undo from '@ckeditor/ckeditor5-undo/src/undo';
 
 describe( 'Essentials preset', () => {

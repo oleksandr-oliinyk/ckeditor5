@@ -63,11 +63,19 @@ export const BR_FILLER = domDocument => {
 export const INLINE_FILLER_LENGTH = 7;
 
 /**
- * Inline filler which is a sequence of the word joiners.
+ * Inline filler which is a sequence of the zero width spaces.
  *
  * @type {String}
  */
-export const INLINE_FILLER = '\u2060'.repeat( INLINE_FILLER_LENGTH );
+export const INLINE_FILLER = ( () => {
+	let inlineFiller = '';
+
+	for ( let i = 0; i < INLINE_FILLER_LENGTH; i++ ) {
+		inlineFiller += '\u200b';
+	}
+
+	return inlineFiller;
+} )(); // Usu IIF so the INLINE_FILLER appears as a constant in the docs.
 
 /**
  * Checks if the node is a text node which starts with the {@link module:engine/view/filler~INLINE_FILLER inline filler}.
@@ -128,7 +136,7 @@ export function injectQuirksHandling( view ) {
 // Move cursor from the end of the inline filler to the beginning of it when, so the filler does not break navigation.
 function jumpOverInlineFiller( evt, data ) {
 	if ( data.keyCode == keyCodes.arrowleft ) {
-		const domSelection = data.domTarget.ownerDocument.defaultView.getSelection();
+		const domSelection = document.getElementsByTagName("mobi-html-editor")[0].shadowRoot.getSelection();
 
 		if ( domSelection.rangeCount == 1 && domSelection.getRangeAt( 0 ).collapsed ) {
 			const domParent = domSelection.getRangeAt( 0 ).startContainer;

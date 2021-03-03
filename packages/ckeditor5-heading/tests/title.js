@@ -17,7 +17,7 @@ import Image from '@ckeditor/ckeditor5-image/src/image';
 import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload';
 import Undo from '@ckeditor/ckeditor5-undo/src/undo';
 
-import { setData, getData, stringify } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData, getData, stringify } from '../../ckeditor5-engine/src/dev-utils/model';
 import { keyCodes } from '@ckeditor/ckeditor5-utils/src/keyboard';
 
 describe( 'Title', () => {

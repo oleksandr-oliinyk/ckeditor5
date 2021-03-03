@@ -6,11 +6,11 @@
 /* globals document, Event */
 
 import ImageLoadObserver from '../../src/image/imageloadobserver';
-import Observer from '@ckeditor/ckeditor5-engine/src/view/observer/observer';
-import View from '@ckeditor/ckeditor5-engine/src/view/view';
-import createViewRoot from '@ckeditor/ckeditor5-engine/tests/view/_utils/createroot';
-import { setData } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
-import { StylesProcessor } from '@ckeditor/ckeditor5-engine/src/view/stylesmap';
+import Observer from '../../../ckeditor5-engine/src/view/observer/observer';
+import View from '../../../ckeditor5-engine/src/view/view';
+import createViewRoot from '../../../ckeditor5-engine/tests/view/_utils/createroot';
+import { setData } from '../../../ckeditor5-engine/src/dev-utils/view';
+import { StylesProcessor } from '../../../ckeditor5-engine/src/view/stylesmap';
 
 describe( 'ImageLoadObserver', () => {
 	let view, viewDocument, observer, domRoot, viewRoot;

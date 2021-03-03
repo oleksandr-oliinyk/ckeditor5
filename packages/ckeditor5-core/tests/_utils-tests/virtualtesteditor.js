@@ -6,9 +6,9 @@
 import Editor from '../../src/editor/editor';
 import VirtualTestEditor from '../../tests/_utils/virtualtesteditor';
 
-import HtmlDataProcessor from '@ckeditor/ckeditor5-engine/src/dataprocessor/htmldataprocessor';
+import HtmlDataProcessor from '../../../ckeditor5-engine/src/dataprocessor/htmldataprocessor';
 import DataApiMixin from '../../src/editor/utils/dataapimixin';
-import RootElement from '@ckeditor/ckeditor5-engine/src/model/rootelement';
+import RootElement from '../../../ckeditor5-engine/src/model/rootelement';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 
 import testUtils from '../../tests/_utils/utils';

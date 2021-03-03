@@ -4,9 +4,9 @@
  */
 
 import Editor from '@ckeditor/ckeditor5-core/src/editor/editor';
-import Model from '@ckeditor/ckeditor5-engine/src/model/model';
+import Model from '../../ckeditor5-engine/src/model/model';
 import IndentCommand from '../src/indentcommand';
-import { setData, getData } from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
+import { setData, getData } from '../../ckeditor5-engine/src/dev-utils/model';
 
 describe( 'IndentCommand', () => {
 	let editor, model, doc, root;

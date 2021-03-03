@@ -11,8 +11,8 @@ import VirtualTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/virtualtest
 import {
 	getData as getModelData,
 	setData as setModelData
-} from '@ckeditor/ckeditor5-engine/src/dev-utils/model';
-import { parse as parseView } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
+} from '../../ckeditor5-engine/src/dev-utils/model';
+import { parse as parseView } from '../../ckeditor5-engine/src/dev-utils/view';
 
 describe( 'Paragraph feature – integration', () => {
 	describe( 'with clipboard', () => {

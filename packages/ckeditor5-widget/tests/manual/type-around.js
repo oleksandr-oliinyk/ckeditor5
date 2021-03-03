@@ -9,8 +9,8 @@ import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor'
 import ArticlePluginSet from '@ckeditor/ckeditor5-core/tests/_utils/articlepluginset';
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline';
 import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
-import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
-import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
+import TableProperties from '../../../ckeditor5-table/src/tableproperties';
+import TableCellProperties from '../../../ckeditor5-table/src/tablecellproperties';
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
 
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';

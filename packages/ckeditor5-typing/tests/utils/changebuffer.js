@@ -4,8 +4,8 @@
  */
 
 import ChangeBuffer from '../../src/utils/changebuffer';
-import Model from '@ckeditor/ckeditor5-engine/src/model/model';
-import Batch from '@ckeditor/ckeditor5-engine/src/model/batch';
+import Model from '../../../ckeditor5-engine/src/model/model';
+import Batch from '../../../ckeditor5-engine/src/model/batch';
 
 describe( 'ChangeBuffer', () => {
 	const CHANGE_LIMIT = 3;

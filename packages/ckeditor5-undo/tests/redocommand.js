@@ -4,10 +4,10 @@
  */
 
 import ModelTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/modeltesteditor';
-import Batch from '@ckeditor/ckeditor5-engine/src/model/batch';
+import Batch from '../../ckeditor5-engine/src/model/batch';
 import UndoCommand from '../src/undocommand';
 import RedoCommand from '../src/redocommand';
-import { itemAt, getText } from '@ckeditor/ckeditor5-engine/tests/model/_utils/utils';
+import { itemAt, getText } from '../../ckeditor5-engine/tests/model/_utils/utils';
 import toArray from '@ckeditor/ckeditor5-utils/src/toarray';
 
 describe( 'RedoCommand', () => {

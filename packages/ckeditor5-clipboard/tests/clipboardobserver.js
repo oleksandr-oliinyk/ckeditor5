@@ -6,10 +6,10 @@
 /* globals document */
 
 import ClipboardObserver from '../src/clipboardobserver';
-import View from '@ckeditor/ckeditor5-engine/src/view/view';
-import DowncastWriter from '@ckeditor/ckeditor5-engine/src/view/downcastwriter';
+import View from '../../ckeditor5-engine/src/view/view';
+import DowncastWriter from '../../ckeditor5-engine/src/view/downcastwriter';
 import DataTransfer from '../src/datatransfer';
-import createViewRoot from '@ckeditor/ckeditor5-engine/tests/view/_utils/createroot';
+import createViewRoot from '../../ckeditor5-engine/tests/view/_utils/createroot';
 
 describe( 'ClipboardObserver', () => {
 	let view, doc, writer, observer, root, el, range, eventSpy, preventDefaultSpy, stopPropagationSpy;

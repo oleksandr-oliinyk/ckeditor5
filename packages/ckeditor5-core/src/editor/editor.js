@@ -9,18 +9,18 @@
 
 import Context from '../context';
 import Config from '@ckeditor/ckeditor5-utils/src/config';
-import EditingController from '@ckeditor/ckeditor5-engine/src/controller/editingcontroller';
+import EditingController from '../../../ckeditor5-engine/src/controller/editingcontroller';
 import PluginCollection from '../plugincollection';
 import CommandCollection from '../commandcollection';
-import DataController from '@ckeditor/ckeditor5-engine/src/controller/datacontroller';
-import Conversion from '@ckeditor/ckeditor5-engine/src/conversion/conversion';
-import Model from '@ckeditor/ckeditor5-engine/src/model/model';
+import DataController from '../../../ckeditor5-engine/src/controller/datacontroller';
+import Conversion from '../../../ckeditor5-engine/src/conversion/conversion';
+import Model from '../../../ckeditor5-engine/src/model/model';
 import EditingKeystrokeHandler from '../editingkeystrokehandler';
 
 import ObservableMixin from '@ckeditor/ckeditor5-utils/src/observablemixin';
 import mix from '@ckeditor/ckeditor5-utils/src/mix';
 import CKEditorError from '@ckeditor/ckeditor5-utils/src/ckeditorerror';
-import { StylesProcessor } from '@ckeditor/ckeditor5-engine/src/view/stylesmap';
+import { StylesProcessor } from '../../../ckeditor5-engine/src/view/stylesmap';
 
 /**
  * The class representing a basic, generic editor.

@@ -29,7 +29,7 @@ import {
 
 import {
 	isNonTypingKeystroke
-} from '@ckeditor/ckeditor5-typing/src/utils/injectunsafekeystrokeshandling';
+} from '../../../ckeditor5-typing/src/utils/injectunsafekeystrokeshandling';
 
 import returnIcon from '../../theme/icons/return-arrow.svg';
 import '../../theme/widgettypearound.css';

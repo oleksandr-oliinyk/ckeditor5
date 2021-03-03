@@ -3,16 +3,16 @@
  * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
 
-import HtmlDataProcessor from '@ckeditor/ckeditor5-engine/src/dataprocessor/htmldataprocessor';
-import { stringify } from '@ckeditor/ckeditor5-engine/src/dev-utils/view';
-import Document from '@ckeditor/ckeditor5-engine/src/view/document';
-import UpcastWriter from '@ckeditor/ckeditor5-engine/src/view/upcastwriter';
+import HtmlDataProcessor from '../../../ckeditor5-engine/src/dataprocessor/htmldataprocessor';
+import { stringify } from '../../../ckeditor5-engine/src/dev-utils/view';
+import Document from '../../../ckeditor5-engine/src/view/document';
+import UpcastWriter from '../../../ckeditor5-engine/src/view/upcastwriter';
 
 import {
 	transformListItemLikeElementsIntoLists,
 	unwrapParagraphInListItem
 } from '../../src/filters/list';
-import { StylesProcessor } from '@ckeditor/ckeditor5-engine/src/view/stylesmap';
+import { StylesProcessor } from '../../../ckeditor5-engine/src/view/stylesmap';
 
 describe( 'PasteFromOffice - filters', () => {
 	describe( 'list - paste from MS Word', () => {

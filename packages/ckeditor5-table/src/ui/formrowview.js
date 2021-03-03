@@ -7,7 +7,7 @@
  * @module table/ui/formrowview
  */
 
-import { View } from 'ckeditor5/src/ui';
+import View from "@ckeditor/ckeditor5-ui/src/view";
 
 import '../../theme/formrow.css';
 
