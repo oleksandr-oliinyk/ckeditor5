@@ -184,8 +184,10 @@ function getFillerOffset() {
 // ends up in ui element (in DOM) and is moved back to the left. This handler fixes this situation.
 function jumpOverUiElement( evt, data, domConverter ) {
 	if ( data.keyCode == keyCodes.arrowright ) {
-		// console.log("EVT:", evt, "\nDATA:", data, "\nDOM_CONVERTER:", domConverter)
-		const domSelection = document.getElementsByTagName("mobi-html-editor")[0].shadowRoot.getSelection();
+		let element = data.domTarget;
+		while (element.nodeType !== 11)
+			element = element.parentNode;
+		const domSelection = element.getSelection();
 		const domSelectionCollapsed = domSelection.rangeCount == 1 && domSelection.getRangeAt( 0 ).collapsed;
 
 		// Jump over UI element if selection is collapsed or shift key is pressed. These are the cases when selection would extend.
