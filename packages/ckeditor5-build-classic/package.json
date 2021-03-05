@@ -35,6 +35,7 @@
     "@ckeditor/ckeditor5-cloud-services": "^25.0.0",
     "@ckeditor/ckeditor5-easy-image": "^25.0.0",
     "@ckeditor/ckeditor5-editor-classic": "^25.0.0",
+    "@ckeditor/ckeditor5-engine": "file:ckeditor5-engine",
     "@ckeditor/ckeditor5-essentials": "^25.0.0",
     "@ckeditor/ckeditor5-heading": "^25.0.0",
     "@ckeditor/ckeditor5-image": "^25.0.0",
@@ -43,7 +44,9 @@
     "@ckeditor/ckeditor5-list": "^25.0.0",
     "@ckeditor/ckeditor5-media-embed": "^25.0.0",
     "@ckeditor/ckeditor5-paragraph": "^25.0.0",
-    "@ckeditor/ckeditor5-paste-from-office": "^25.0.0"
+    "@ckeditor/ckeditor5-paste-from-office": "^25.0.0",
+    "@ckeditor/ckeditor5-typing": "file:ckeditor5-typing",
+    "@ckeditor/ckeditor5-utils": "file:ckeditor5-utils"
   },
   "devDependencies": {
     "@ckeditor/ckeditor5-core": "^25.0.0",
@@ -54,12 +57,18 @@
     "raw-loader": "^4.0.1",
     "style-loader": "^1.2.1",
     "terser-webpack-plugin": "^3.0.2",
-    "webpack": "^4.43.0",
+    "webpack": "^4.46.0",
     "webpack-cli": "^3.3.11"
   },
   "engines": {
     "node": ">=12.0.0",
     "npm": ">=5.7.1"
+  },
+  "workspaces": {
+    "packages": [
+      "ckeditor5-build-classic-master",
+      "ckeditor5-table"
+    ]
   },
   "author": "CKSource (http://cksource.com/)",
   "license": "GPL-2.0-or-later",
