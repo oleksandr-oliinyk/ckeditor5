@@ -136,7 +136,10 @@ export function injectQuirksHandling( view ) {
 // Move cursor from the end of the inline filler to the beginning of it when, so the filler does not break navigation.
 function jumpOverInlineFiller( evt, data ) {
 	if ( data.keyCode == keyCodes.arrowleft ) {
-		const domSelection = document.getElementsByTagName("mobi-html-editor")[0].shadowRoot.getSelection();
+		let elem = data.domTarget;
+		while (elem.nodeType === 1)
+			elem = elem.parentNode;
+		const domSelection = elem.getSelection();
 
 		if ( domSelection.rangeCount == 1 && domSelection.getRangeAt( 0 ).collapsed ) {
 			const domParent = domSelection.getRangeAt( 0 ).startContainer;

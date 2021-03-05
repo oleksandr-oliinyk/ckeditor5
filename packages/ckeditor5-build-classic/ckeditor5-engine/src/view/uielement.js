@@ -184,6 +184,7 @@ function getFillerOffset() {
 // ends up in ui element (in DOM) and is moved back to the left. This handler fixes this situation.
 function jumpOverUiElement( evt, data, domConverter ) {
 	if ( data.keyCode == keyCodes.arrowright ) {
+		// console.log("EVT:", evt, "\nDATA:", data, "\nDOM_CONVERTER:", domConverter)
 		const domSelection = document.getElementsByTagName("mobi-html-editor")[0].shadowRoot.getSelection();
 		const domSelectionCollapsed = domSelection.rangeCount == 1 && domSelection.getRangeAt( 0 ).collapsed;
 

@@ -196,14 +196,6 @@
       "external/*/external/*/packages/**/ckeditor5",
       "external/*/external/*/packages/**/frontend",
       "."
-    ],
-    "nohoist": [
-      "**/husky"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }

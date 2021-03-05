@@ -131,7 +131,10 @@ export default class SelectionObserver extends Observer {
 			return;
 		}
 
-		const domSelection = document.getElementsByTagName("mobi-html-editor")[0].shadowRoot.getSelection();
+		let element = domDocument.getElementsByTagName("*");
+		element = Array.prototype.slice.call(element).find(elem => !!elem.shadowRoot).shadowRoot;
+
+		const domSelection = element.getSelection();
 
 		if ( this.checkShouldIgnoreEventFromTarget( domSelection.anchorNode ) ) {
 			return;

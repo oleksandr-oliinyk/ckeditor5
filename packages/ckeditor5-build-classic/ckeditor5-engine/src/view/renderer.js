@@ -706,6 +706,9 @@ export default class Renderer {
 	 */
 	_updateFakeSelection( domRoot ) {
 		const domDocument = domRoot.ownerDocument;
+		let elem = domRoot;
+		while (elem.nodeType === 1)
+			elem = elem.parentNode;
 
 		if ( !this._fakeSelectionContainer ) {
 			this._fakeSelectionContainer = createFakeSelectionContainer( domDocument );
@@ -725,8 +728,7 @@ export default class Renderer {
 		}
 
 		container.textContent = this.selection.fakeSelectionLabel || '\u00A0';
-
-		const domSelection = document.getElementsByTagName("mobi-html-editor")[0].shadowRoot.getSelection();;
+		const domSelection = elem.getSelection();;
 		const domRange = domDocument.createRange();
 
 		domSelection.removeAllRanges();
@@ -741,7 +743,10 @@ export default class Renderer {
 	 * @param {HTMLElement} domRoot A valid DOM root where the DOM selection should be rendered.
 	 */
 	_updateDomSelection( domRoot ) {
-		const domSelection = document.getElementsByTagName("mobi-html-editor")[0].shadowRoot.getSelection();
+		let elem = domRoot;
+		while (elem.nodeType === 1)
+			elem = elem.parentNode;
+		const domSelection = elem.getSelection();
 
 		// Let's check whether DOM selection needs updating at all.
 		if ( !this._domSelectionNeedsUpdate( domSelection ) ) {
@@ -807,7 +812,10 @@ export default class Renderer {
 	 */
 	_fakeSelectionNeedsUpdate( domRoot ) {
 		const container = this._fakeSelectionContainer;
-		const domSelection = document.getElementsByTagName("mobi-html-editor")[0].shadowRoot.getSelection();
+		let elem = domRoot;
+		while (elem.nodeType === 1)
+			elem = elem.parentNode;
+		const domSelection = elem.getSelection();
 
 		// Fake selection needs to be updated if there's no fake selection container, or the container currently sits
 		// in a different root.
@@ -830,6 +838,7 @@ export default class Renderer {
 	 */
 	_removeDomSelection() {
 		for ( const doc of this.domDocuments ) {
+			console.log(doc)
 			const domSelection = document.getElementsByTagName("mobi-html-editor")[0].shadowRoot.getSelection();
 
 			if ( domSelection.rangeCount ) {
